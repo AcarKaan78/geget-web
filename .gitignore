@@ -1,0 +1,36 @@
+# Go
+backend/tmp/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+postgres_data/
+
+# Logs
+*.log
