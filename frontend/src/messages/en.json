@@ -1,0 +1,384 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "team": "Our Team",
+      "contact": "Contact"
+    },
+    "cta": {
+      "learnMore": "Learn More",
+      "getInvolved": "Get Involved",
+      "donate": "Donate",
+      "readMore": "Read More",
+      "viewAll": "View All",
+      "contactUs": "Contact Us",
+      "viewProjects": "View Projects",
+      "backToHome": "Back to Home"
+    },
+    "footer": {
+      "description": "Developing sustainable youth policies for a sustainable world.",
+      "quickLinks": "Quick Links",
+      "contactInfo": "Contact Information",
+      "contactTitle": "Contact",
+      "followUs": "Follow Us",
+      "rights": "All rights reserved.",
+      "copyright": "© 2026 GEGET. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "email": "info@geget.org",
+      "newsletter": "Newsletter",
+      "newsletterSoon": "Coming Soon",
+      "newsletterDesc": "Subscribe to our newsletter. Coming soon."
+    },
+    "language": {
+      "tr": "Türkçe",
+      "en": "English"
+    },
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "notFoundDescription": "The page you are looking for does not exist or may have been moved."
+  },
+  "home": {
+    "hero": {
+      "title": "Shaping the Future with the Power of Youth",
+      "subtitle": "We are a civil society organisation producing sustainable youth policies for a sustainable world, empowering young people to take an active role in societal transformation.",
+      "cta1": "Explore Our Projects",
+      "cta2": "Get Involved",
+      "ctaAbout": "About Us",
+      "ctaContact": "Contact"
+    },
+    "mission": {
+      "quote": "We must build a world not for youth but together with youth",
+      "title": "Our Mission",
+      "description": "At GEGET, we support the active participation of young people in social decision-making processes and develop youth policies in line with sustainable development goals. Our greatest aim is to strengthen the voice of youth and raise them as future leaders."
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "subtitle": "We work in six key areas to maximise the potential of young people.",
+      "areas": {
+        "policies": {
+          "title": "Youth Policies",
+          "description": "We contribute to policy development processes for youth needs and establish dialogue with decision-makers."
+        },
+        "cities": {
+          "title": "Youth-Friendly Cities",
+          "description": "We advocate for cities to be more accessible, participatory, and livable for young people."
+        },
+        "wellbeing": {
+          "title": "Youth Well-Being",
+          "description": "We develop programmes supporting the physical, mental, and social well-being of young people."
+        },
+        "networks": {
+          "title": "Youth Networks",
+          "description": "We strengthen connections between young people by establishing national and international youth networks."
+        },
+        "projects": {
+          "title": "Youth Projects",
+          "description": "We design innovative projects that develop leadership and entrepreneurship skills of young people."
+        },
+        "future": {
+          "title": "Empowered Towards the Future",
+          "description": "We support young people in building a sustainable future by empowering them."
+        }
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "50",
+        "label": "Completed Projects",
+        "suffix": "+"
+      },
+      "youth": {
+        "value": "10000",
+        "label": "Youth Reached",
+        "suffix": "+"
+      },
+      "cities": {
+        "value": "30",
+        "label": "Active Provinces",
+        "suffix": "+"
+      },
+      "partners": {
+        "value": "25",
+        "label": "International Partners",
+        "suffix": "+"
+      }
+    },
+    "youthCities": {
+      "title": "Youth-Friendly Cities",
+      "subtitle": "We empower local communities by reaching young people across Turkey.",
+      "description": "We develop tailored programmes addressing the needs of young people in every city, implementing projects that take local dynamics into account.",
+      "features": {
+        "accessible": {
+          "title": "Accessible Cities",
+          "description": "We advocate for every young person's right to equal access to urban services."
+        },
+        "dialogue": {
+          "title": "Youth Dialogue",
+          "description": "We build constructive dialogue bridges between youth and local governments."
+        },
+        "participation": {
+          "title": "Democratic Participation",
+          "description": "We encourage active participation of young people in democratic processes."
+        }
+      }
+    },
+    "cta": {
+      "title": "Be Part of the Change",
+      "description": "Let us work together to shape the future of young people. Every young person can be a part of change.",
+      "button": "Get in Touch"
+    },
+    "partners": {
+      "title": "Our Partner Organisations",
+      "subtitle": "We provide greater opportunities for young people through strong partnerships at national and international levels.",
+      "comingSoon": "Coming Soon"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Get to know the Youth Future and Society Association.",
+    "story": {
+      "title": "Our Story",
+      "content": "GEGET was founded by a group of young activists who believe that young people must play an active role in societal transformation. Since our establishment, we have reached thousands of young people across Turkey, helping them discover their potential and contribute to society. We continue to shape the future of youth through our projects in youth policy, education, social inclusion, and international cooperation.",
+      "paragraph1": "GEGET (Youth Future and Society Association) was founded by a group of young activists who firmly believe that young people must play an active role in societal transformation. Our purpose is to amplify the voice of youth and empower them as pioneers of the future.",
+      "paragraph2": "Since our establishment, we have reached thousands of young people across Turkey, helping them discover their potential and contribute meaningfully to society. We have developed innovative projects in the fields of youth policy, education, social inclusion, and international cooperation.",
+      "paragraph3": "We support the active participation of young people in decision-making processes for a sustainable future, carrying out our work through scientific methods and participatory approaches. Building a world where every young person can realise their full potential is our greatest goal.",
+      "missionTitle": "Our Mission",
+      "missionText": "To support the active participation of young people in decision-making processes, strengthen their policy development capacities, and enable them to become pioneers of social change.",
+      "visionTitle": "Our Vision",
+      "visionText": "A world where young people play an effective role in social decision-making, have equal opportunities, and lead the way towards a sustainable future.",
+      "philosophyTitle": "Our Philosophy",
+      "philosophyText": "Creating participatory, inclusive, and sustainable solutions by working with young people, not just for them."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "content": "We envision a world where young people play an effective role in social decision-making processes, have equal opportunities, and lead the way towards a sustainable future. Our vision is to build a society where every young person can discover their potential, contribute to the community, and take on responsibility as a global citizen."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "Our mission is to support the active participation of young people in decision-making processes, strengthen their policy development capacities, and enable them to become pioneers of social change. In doing so, we draw upon scientific methods, participatory approaches, and international standards."
+    },
+    "philosophy": {
+      "title": "Our Working Philosophy",
+      "subtitle": "We follow three fundamental steps in every project.",
+      "steps": {
+        "think": {
+          "title": "Think",
+          "description": "We research the needs of young people using scientific methods, conduct data-driven analyses, and understand problems at their root."
+        },
+        "design": {
+          "title": "Design",
+          "description": "Based on research findings, we develop innovative and participatory solutions, designing projects together with stakeholders."
+        },
+        "implement": {
+          "title": "Implement",
+          "description": "We deliver concrete results by implementing our projects in the field, measuring impact, and ensuring sustainability."
+        }
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "items": {
+        "idea": {
+          "title": "The Birth of an Idea",
+          "description": "A group of young activists came together with the conviction that youth must play a more active role in societal decision-making, laying the foundations of GEGET."
+        },
+        "founding": {
+          "title": "Founding the Association",
+          "description": "GEGET was officially established as the Youth Future and Society Association and launched its first initiatives."
+        },
+        "projects": {
+          "title": "First Projects",
+          "description": "We launched our inaugural projects in the areas of youth policy, digital literacy, and civic participation."
+        }
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The core values that guide our work.",
+      "items": {
+        "participation": {
+          "title": "Participation",
+          "description": "We ensure the active participation of young people in all processes, placing them in decision-making roles."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "description": "We adopt an open and accountable approach in all our activities."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "We go beyond traditional approaches to produce creative and technology-driven solutions."
+        },
+        "inclusivity": {
+          "title": "Inclusivity",
+          "description": "We work to ensure equal opportunities for everyone, viewing diversity as a strength."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "description": "We ensure our projects create long-term impact and uphold environmental and social sustainability."
+        },
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "We create a greater sphere of impact by building strong partnerships with local and international stakeholders."
+        },
+        "solidarity": {
+          "title": "Solidarity",
+          "description": "We foster a culture of solidarity among young people, accelerating societal transformation through collective action."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover our projects that touch the lives of young people and aim for societal transformation.",
+    "categories": {
+      "all": "All",
+      "policy": "Policy",
+      "education": "Education",
+      "social": "Social",
+      "technology": "Technology",
+      "politika": "Policy",
+      "egitim": "Education",
+      "sosyal": "Social",
+      "teknoloji": "Technology"
+    },
+    "filterCategories": {
+      "all": "All",
+      "politika": "Policy",
+      "egitim": "Education",
+      "sosyal": "Social",
+      "teknoloji": "Technology"
+    },
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "upcoming": "Upcoming"
+    },
+    "items": {
+      "youthPolicyWorkshop": {
+        "title": "Youth Policy Workshop",
+        "description": "A comprehensive workshop programme enabling young people to actively participate in policy development processes and engage in direct dialogue with decision-makers."
+      },
+      "digitalLiteracy": {
+        "title": "Digital Literacy Programme",
+        "description": "An educational programme designed to help young people become safe, informed, and productive individuals in the digital world. It covers media literacy, digital security, and content creation."
+      },
+      "youthFriendlyCity": {
+        "title": "Youth-Friendly City Index",
+        "description": "A comprehensive assessment system that measures the livability of cities for young people and guides local governments on youth policies."
+      },
+      "youthDialogue": {
+        "title": "Youth Dialogue Platform",
+        "description": "A digital platform fostering constructive dialogue between young people, civil society organisations, and decision-makers. It includes policy proposals and feedback mechanisms."
+      },
+      "sustainableFutureCamp": {
+        "title": "Sustainable Future Camp",
+        "description": "An intensive camp programme where young people develop projects aligned with sustainable development goals, strengthening their leadership and entrepreneurship skills."
+      },
+      "localGovYouthCouncil": {
+        "title": "Local Government Youth Advisory Council",
+        "description": "An advisory council mechanism ensuring youth representation in local governments and bringing a youth perspective to municipal decision-making processes."
+      }
+    },
+    "noProjects": "No projects found in this category yet.",
+    "readMore": "Read More",
+    "details": "Project Details",
+    "startDate": "Start Date",
+    "category": "Category"
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet our passionate and experienced team leading the way for change.",
+    "roles": {
+      "president": "President",
+      "vicePresident": "Vice President",
+      "secretary": "Secretary General",
+      "treasurer": "Treasurer",
+      "boardMember": "Board Member",
+      "projectCoordinator": "Project Coordinator",
+      "communicationsLead": "Communications Lead",
+      "volunteer": "Volunteer"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Reach out to us with your questions, suggestions, or partnership enquiries.",
+    "form": {
+      "name": "Full Name",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "subject": "Subject",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Enter the subject of your message",
+      "message": "Message",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "sending": "Sending...",
+      "successTitle": "Success!",
+      "successMessage": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "errorTitle": "Error",
+      "errorMessage": "An error occurred while sending the message. Please try again later.",
+      "success": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "error": "An error occurred while sending the message. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "emailLabel": "Email",
+      "emailValue": "info@geget.org",
+      "social": "Social Media",
+      "socialTitle": "Follow Us",
+      "address": "Address",
+      "locationLabel": "Location",
+      "locationValue": "Istanbul, Turkey",
+      "workingHours": "Working Hours",
+      "hoursLabel": "Working Hours",
+      "hoursValue": "Monday - Friday: 09:00 - 18:00",
+      "workingHoursValue": "Monday - Friday: 09:00 - 18:00",
+      "cta": "Do not hesitate to get in touch with us for more information about our projects, partnership opportunities, or volunteering. We respond to every message as quickly as possible."
+    },
+    "validation": {
+      "nameRequired": "Full name is required.",
+      "nameMin": "Full name must be at least 2 characters.",
+      "nameMax": "Full name cannot exceed 255 characters.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "subjectRequired": "Subject is required.",
+      "subjectMin": "Subject must be at least 3 characters.",
+      "subjectMax": "Subject cannot exceed 500 characters.",
+      "messageRequired": "Message is required.",
+      "messageMin": "Message must be at least 10 characters.",
+      "messageMax": "Message cannot exceed 2000 characters."
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "Home",
+      "description": "GEGET — Youth Future and Society Association. Developing sustainable youth policies for a sustainable world."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Learn about GEGET's story, vision, mission, and values."
+    },
+    "projects": {
+      "title": "Our Projects",
+      "description": "Explore GEGET's projects in youth policy, education, social inclusion, and technology."
+    },
+    "team": {
+      "title": "Our Team",
+      "description": "Meet the passionate and experienced team members of GEGET."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch with GEGET. Reach out for questions, suggestions, or partnership enquiries."
+    }
+  }
+}
