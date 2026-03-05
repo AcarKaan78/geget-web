@@ -11,6 +11,7 @@ export default function Footer() {
     { href: '/hakkimizda', label: t('nav.about') },
     { href: '/projeler', label: t('nav.projects') },
     { href: '/ekibimiz', label: t('nav.team') },
+    { href: '/blog', label: t('nav.blog') },
     { href: '/iletisim', label: t('nav.contact') },
   ];
 
