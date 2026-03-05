@@ -47,7 +47,7 @@ export default function FocusAreas() {
   const isInView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-    <section className="relative bg-neutral-50 py-20 sm:py-28">
+    <section className="relative bg-gradient-to-br from-primary-50 via-accent-50/30 to-primary-100/50 py-20 sm:py-28">
       {/* Subtle background pattern */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary-200 to-transparent" />

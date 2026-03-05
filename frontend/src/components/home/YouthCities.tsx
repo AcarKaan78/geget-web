@@ -17,7 +17,7 @@ export default function YouthCities() {
   const t = useTranslations('home.youthCities');
 
   return (
-    <section className="relative overflow-hidden bg-white py-20 sm:py-28">
+    <section className="relative overflow-hidden bg-gradient-to-b from-primary-50/30 via-accent-50/20 to-primary-50/50 py-20 sm:py-28">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neutral-200 to-transparent" aria-hidden="true" />
 

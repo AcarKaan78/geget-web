@@ -9,7 +9,7 @@ export default function Partners() {
   const partnerSlots = Array.from({ length: 8 }, (_, i) => i + 1);
 
   return (
-    <section className="relative bg-neutral-50 py-20 sm:py-24">
+    <section className="relative bg-gradient-to-b from-primary-50/40 via-accent-50/20 to-primary-100/30 py-20 sm:py-24">
       {/* Top border */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-neutral-200 to-transparent" aria-hidden="true" />
 

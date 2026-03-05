@@ -5,7 +5,7 @@ export default function Mission() {
   const t = useTranslations('home.mission');
 
   return (
-    <section className="relative overflow-hidden bg-white py-20 sm:py-28">
+    <section className="relative overflow-hidden bg-gradient-to-b from-primary-50/60 via-white to-primary-50/40 py-20 sm:py-28">
       {/* Decorative diamond shape */}
       <div className="absolute -right-12 top-1/2 -translate-y-1/2 pointer-events-none" aria-hidden="true">
         <div className="h-48 w-48 rotate-45 rounded-3xl border-2 border-primary-100 opacity-40" />
