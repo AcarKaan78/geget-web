@@ -5,6 +5,7 @@
       "about": "About",
       "projects": "Projects",
       "team": "Our Team",
+      "blog": "Youth Open Door",
       "contact": "Contact"
     },
     "cta": {
@@ -359,6 +360,22 @@
       "messageMax": "Message cannot exceed 2000 characters."
     }
   },
+  "blog": {
+    "title": "Youth Open Door",
+    "subtitle": "The voice of youth, their stories, and writings on societal transformation.",
+    "description": "At GEGET, we have created a space where young people share their experiences, ideas, and projects. Here you can find articles on youth policies, civic participation, personal development, and much more.",
+    "comingSoon": "Coming Soon",
+    "comingSoonText": "Our first articles will be here very soon. The voice, experiences, and contributions of young people to societal change will be featured on this page.",
+    "stayTuned": "Stay tuned! Articles penned by young people are coming very soon.",
+    "categories": {
+      "all": "All",
+      "policy": "Youth Policies",
+      "stories": "Youth Stories",
+      "education": "Education",
+      "opinion": "Opinions & Ideas",
+      "events": "Event Notes"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Home",
@@ -375,6 +392,10 @@
     "team": {
       "title": "Our Team",
       "description": "Meet the passionate and experienced team members of GEGET."
+    },
+    "blog": {
+      "title": "Youth Open Door",
+      "description": "GEGET's youth blog. The voice of young people, their stories, and writings on societal transformation."
     },
     "contact": {
       "title": "Contact",

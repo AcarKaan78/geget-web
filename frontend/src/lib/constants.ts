@@ -3,6 +3,7 @@ export const NAV_LINKS = [
   { href: '/hakkimizda', labelKey: 'common.nav.about' },
   { href: '/projeler', labelKey: 'common.nav.projects' },
   { href: '/ekibimiz', labelKey: 'common.nav.team' },
+  { href: '/blog', labelKey: 'common.nav.blog' },
   { href: '/iletisim', labelKey: 'common.nav.contact' },
 ] as const;
 

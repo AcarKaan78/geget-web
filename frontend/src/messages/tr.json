@@ -5,6 +5,7 @@
       "about": "Hakkımızda",
       "projects": "Projeler",
       "team": "Ekibimiz",
+      "blog": "Genç Açık Kapısı",
       "contact": "İletişim"
     },
     "cta": {
@@ -359,6 +360,22 @@
       "messageMax": "Mesaj en fazla 2000 karakter olabilir."
     }
   },
+  "blog": {
+    "title": "Genç Açık Kapısı",
+    "subtitle": "Gençlerin sesi, hikâyeleri ve toplumsal dönüşüme dair yazıları.",
+    "description": "GEGET olarak gençlerin deneyimlerini, fikirlerini ve projelerini paylaştığı bir alan oluşturduk. Burada gençlik politikaları, toplumsal katılım, kişisel gelişim ve daha birçok konuda yazılar bulabilirsiniz.",
+    "comingSoon": "Yakında",
+    "comingSoonText": "İlk yazılarımız çok yakında burada olacak. Gençlerin sesi, deneyimleri ve toplumsal dönüşüme katkıları bu sayfada yer alacak.",
+    "stayTuned": "Takipte kalın! Gençlerin kaleminden yazılar çok yakında sizlerle.",
+    "categories": {
+      "all": "Tümü",
+      "policy": "Gençlik Politikaları",
+      "stories": "Genç Hikâyeleri",
+      "education": "Eğitim",
+      "opinion": "Görüş ve Öneriler",
+      "events": "Etkinlik Notları"
+    }
+  },
   "metadata": {
     "home": {
       "title": "Ana Sayfa",
@@ -375,6 +392,10 @@
     "team": {
       "title": "Ekibimiz",
       "description": "GEGET'in tutkulu ve deneyimli ekip üyelerini tanıyın."
+    },
+    "blog": {
+      "title": "Genç Açık Kapısı",
+      "description": "GEGET'in gençlik blogu. Gençlerin sesi, hikâyeleri ve toplumsal dönüşüme dair yazılar."
     },
     "contact": {
       "title": "İletişim",
