@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Menu } from 'lucide-react';
@@ -44,12 +45,23 @@ export default function Navbar() {
             {/* Logo */}
             <Link
               href={`/${locale}`}
-              className={cn(
-                'font-heading font-bold text-xl transition-colors duration-300',
-                isScrolled ? 'text-primary-700' : 'text-white'
-              )}
+              className="flex items-center gap-2 transition-all duration-300"
             >
-              GEGET
+              <Image
+                src="/images/logo-color.png"
+                alt="GEGET"
+                width={40}
+                height={40}
+                className="h-9 w-9 md:h-10 md:w-10 object-contain"
+              />
+              <span
+                className={cn(
+                  'font-heading font-bold text-xl transition-colors duration-300',
+                  isScrolled ? 'text-primary-700' : 'text-white'
+                )}
+              >
+                GEGET
+              </span>
             </Link>
 
             {/* Desktop nav links */}

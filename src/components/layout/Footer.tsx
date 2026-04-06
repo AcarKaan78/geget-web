@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Instagram, Twitter, Mail, MapPin } from 'lucide-react';
@@ -30,8 +31,15 @@ export default function Footer() {
           <div>
             <Link
               href={`/${locale}`}
-              className="font-heading text-2xl font-bold tracking-tight"
+              className="flex items-center gap-2 font-heading text-2xl font-bold tracking-tight"
             >
+              <Image
+                src="/images/logo-color.png"
+                alt="GEGET"
+                width={40}
+                height={40}
+                className="h-10 w-10 object-contain"
+              />
               GEGET
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-neutral-300">

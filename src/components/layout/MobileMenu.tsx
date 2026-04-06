@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
@@ -92,7 +93,14 @@ export default function MobileMenu({ isOpen, onClose, locale }: MobileMenuProps)
           >
             {/* Header with close button */}
             <div className="flex items-center justify-between px-6 h-16">
-              <span className="font-heading font-bold text-xl text-white">
+              <span className="flex items-center gap-2 font-heading font-bold text-xl text-white">
+                <Image
+                  src="/images/logo-color.png"
+                  alt="GEGET"
+                  width={36}
+                  height={36}
+                  className="h-9 w-9 object-contain"
+                />
                 GEGET
               </span>
               <button
