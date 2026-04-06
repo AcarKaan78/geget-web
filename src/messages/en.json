@@ -1,0 +1,319 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "team": "Our Team",
+      "contact": "Contact"
+    },
+    "cta": {
+      "contact": "Get in Touch",
+      "learnMore": "Learn More",
+      "aboutUs": "About Us",
+      "viewProjects": "View Projects",
+      "backToHome": "Back to Home"
+    },
+    "footer": {
+      "description": "A civil society organisation developing sustainable youth policies for a sustainable world.",
+      "quickLinks": "Quick Links",
+      "contactInfo": "Contact Information",
+      "rights": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "meta": {
+      "home": {
+        "title": "GEGET — Youth, Future and Society Association",
+        "description": "A civil society organisation developing sustainable youth policies for a sustainable world."
+      },
+      "about": {
+        "title": "About Us — GEGET",
+        "description": "The story, vision, mission, and values of GEGET."
+      },
+      "projects": {
+        "title": "Our Projects — GEGET",
+        "description": "Our youth policy, education, and social impact projects."
+      },
+      "team": {
+        "title": "Our Team — GEGET",
+        "description": "The passionate team behind GEGET."
+      },
+      "contact": {
+        "title": "Contact — GEGET",
+        "description": "Get in touch with us."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Sustainable youth policies for a sustainable world",
+      "subtitle": "Youth, Future and Society Association",
+      "scrollDown": "Scroll down"
+    },
+    "mission": {
+      "overline": "OUR MISSION",
+      "quote": "We must build a world not for young people, but with them",
+      "description": "At GEGET, we champion the active participation of young people in societal decision-making and lead the development of sustainable youth policies."
+    },
+    "focusAreas": {
+      "overline": "OUR FOCUS AREAS",
+      "title": "A youth ecosystem",
+      "subtitle": "We work across six core areas to unlock the potential of young people.",
+      "items": {
+        "youthPolicies": {
+          "title": "Youth Policies",
+          "description": "Developing and advocating for evidence-based, inclusive youth policies."
+        },
+        "youthFriendlyCities": {
+          "title": "Youth-Friendly Cities",
+          "description": "Urban models that improve young people's access to and participation in city life."
+        },
+        "youthWellbeing": {
+          "title": "Youth Wellbeing",
+          "description": "Programmes that support the physical, mental, and social wellbeing of young people."
+        },
+        "youthNetworks": {
+          "title": "Youth Networks",
+          "description": "Building and strengthening national and international youth networks."
+        },
+        "youthProjects": {
+          "title": "Youth Projects",
+          "description": "Projects that develop young people's leadership and entrepreneurial skills."
+        },
+        "empowerment": {
+          "title": "Empowered Futures",
+          "description": "Initiatives that empower young people within decision-making structures."
+        }
+      }
+    },
+    "youthCities": {
+      "title": "Youth-Friendly Cities",
+      "description": "We develop accessible and inclusive urban models that enable young people to actively participate in city life.",
+      "accessible": {
+        "title": "Accessible Cities",
+        "points": [
+          "Youth centres and social spaces",
+          "Accessible public services",
+          "Digital infrastructure and connectivity"
+        ]
+      },
+      "dialogue": {
+        "title": "Youth Dialogue",
+        "points": [
+          "Regular consultation with local authorities",
+          "Youth councils and platforms",
+          "Participatory budgeting processes"
+        ]
+      }
+    },
+    "stats": {
+      "projects": { "value": "12", "label": "Projects" },
+      "partners": { "value": "8", "label": "Partners" },
+      "youth": { "value": "500", "label": "Young People" },
+      "cities": { "value": "5", "label": "Cities" }
+    },
+    "cta": {
+      "title": "Youth Will Be Here",
+      "description": "Join us in shaping the future of young people, together.",
+      "button": "Get in Touch"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "breadcrumb": "Home / About Us",
+    "story": {
+      "overline": "OUR STORY",
+      "title": "Being the Voice of Youth",
+      "p1": "GEGET — Youth, Future and Society Association is a civil society organisation founded to empower young people to play an active role in public life.",
+      "p2": "Our core areas of work include developing sustainable youth policies, building youth-friendly cities, and strengthening youth networks.",
+      "p3": "Our greatest motivation is building a future not for young people, but together with them."
+    },
+    "vision": {
+      "title": "OUR VISION",
+      "description": "A sustainable and inclusive world where young people participate fully and equally in societal decision-making."
+    },
+    "mission": {
+      "title": "OUR MISSION",
+      "description": "To develop evidence-based youth policies, strengthen youth networks, and amplify the voices of young people."
+    },
+    "philosophy": {
+      "overline": "OUR PHILOSOPHY",
+      "title": "Think, Design, Implement",
+      "steps": {
+        "think": {
+          "title": "Think",
+          "description": "Analyse the needs of young people and examine the data."
+        },
+        "design": {
+          "title": "Design",
+          "description": "Develop solutions and policies through participatory methods."
+        },
+        "implement": {
+          "title": "Implement",
+          "description": "Create tangible change through projects and measure the impact."
+        }
+      }
+    },
+    "values": {
+      "overline": "OUR VALUES",
+      "title": "The Principles That Guide Us",
+      "items": {
+        "collaboration": {
+          "title": "Collaboration",
+          "description": "Working alongside stakeholders to create shared solutions."
+        },
+        "participation": {
+          "title": "Participation",
+          "description": "Ensuring the active involvement of young people at every stage."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "description": "Being open and accountable in all processes."
+        },
+        "inclusivity": {
+          "title": "Inclusivity",
+          "description": "Embracing every young person, together with their differences."
+        },
+        "innovation": {
+          "title": "Innovation",
+          "description": "Making a difference through creative and forward-thinking approaches."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "description": "Carrying out work that creates long-term impact."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Our Projects",
+    "breadcrumb": "Home / Our Projects",
+    "filters": {
+      "all": "All",
+      "policy": "Policy",
+      "education": "Education",
+      "social": "Social",
+      "technology": "Technology"
+    },
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "planned": "Planned"
+    },
+    "items": {
+      "gencDostu": {
+        "title": "Youth-Friendly Cities Programme",
+        "description": "A comprehensive programme aimed at increasing youth participation in urban life across various cities in Turkiye."
+      },
+      "politikaForumu": {
+        "title": "Youth Policy Forum",
+        "description": "An annual forum where youth policies are discussed and policy recommendations are developed at national and international level."
+      },
+      "dijitalOkuryazarlik": {
+        "title": "Digital Literacy Workshop",
+        "description": "Hands-on workshops designed to enhance the digital competencies of young people."
+      },
+      "akranMentorluk": {
+        "title": "Peer Mentoring Programme",
+        "description": "A programme where experienced young people mentor their peers, supporting personal and professional development."
+      },
+      "arastirmaRaporu": {
+        "title": "Youth Research Report 2026",
+        "description": "A comprehensive research report analysing the situation of young people in Turkiye."
+      },
+      "kodlaGelecegini": {
+        "title": "Code Your Future",
+        "description": "A training programme equipping young people with foundational skills in software and technology."
+      }
+    },
+    "empty": {
+      "title": "Coming Soon",
+      "description": "We will be sharing our projects here soon.",
+      "cta": "Get in touch with us"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "breadcrumb": "Home / Our Team",
+    "subtitle": "The passionate team behind GEGET.",
+    "members": {
+      "halilEcer": {
+        "name": "Halil Ecer",
+        "role": "Founding President",
+        "bio": "An experienced leader in youth policy and civil society."
+      },
+      "ayseKara": {
+        "name": "Ayşe Kara",
+        "role": "Vice President",
+        "bio": "Specialist in social policy and project management."
+      },
+      "mehmetYilmaz": {
+        "name": "Mehmet Yılmaz",
+        "role": "Secretary General",
+        "bio": "Expert in institutional governance and strategic planning."
+      },
+      "zeynepDemir": {
+        "name": "Zeynep Demir",
+        "role": "Project Coordinator",
+        "bio": "Experienced in international projects and grant management."
+      },
+      "canOzturk": {
+        "name": "Can Öztürk",
+        "role": "Communications Officer",
+        "bio": "Digital communications and social media strategist."
+      },
+      "elifAydin": {
+        "name": "Elif Aydın",
+        "role": "Youth Worker",
+        "bio": "Specialist in youth work and participatory methods."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "breadcrumb": "Home / Contact",
+    "form": {
+      "title": "Write to Us",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject of your message",
+      "message": "Message",
+      "messagePlaceholder": "Write your message...",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We will get back to you as soon as possible.",
+      "error": "Something went wrong. Please try again.",
+      "validation": {
+        "nameRequired": "Name is required.",
+        "nameMin": "Name must be at least 2 characters.",
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Please enter a valid email address.",
+        "subjectRequired": "Subject is required.",
+        "subjectMin": "Subject must be at least 3 characters.",
+        "messageRequired": "Message is required.",
+        "messageMin": "Message must be at least 10 characters."
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "info@geget.org",
+      "emailLabel": "Email",
+      "instagram": "@genclikgelecekvetoplumdernegi",
+      "instagramLabel": "Instagram",
+      "twitter": "@halil_ecer",
+      "twitterLabel": "X (Twitter)",
+      "location": "Istanbul, Turkiye",
+      "locationLabel": "Location"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "button": "Back to Home"
+  }
+}

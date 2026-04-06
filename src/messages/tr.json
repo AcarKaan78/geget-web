@@ -1,0 +1,319 @@
+{
+  "common": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "about": "Hakkımızda",
+      "projects": "Projeler",
+      "team": "Ekibimiz",
+      "contact": "İletişim"
+    },
+    "cta": {
+      "contact": "İletişime Geç",
+      "learnMore": "Daha Fazla",
+      "aboutUs": "Hakkımızda",
+      "viewProjects": "Projeleri Gör",
+      "backToHome": "Ana Sayfaya Dön"
+    },
+    "footer": {
+      "description": "Sürdürülebilir bir dünya için sürdürülebilir gençlik politikaları geliştiren sivil toplum kuruluşu.",
+      "quickLinks": "Hızlı Bağlantılar",
+      "contactInfo": "İletişim Bilgileri",
+      "rights": "Tüm hakları saklıdır.",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları"
+    },
+    "meta": {
+      "home": {
+        "title": "GEGET — Gençlik Gelecek ve Toplum Derneği",
+        "description": "Sürdürülebilir bir dünya için sürdürülebilir gençlik politikaları geliştiren sivil toplum kuruluşu."
+      },
+      "about": {
+        "title": "Hakkımızda — GEGET",
+        "description": "GEGET'in hikayesi, vizyonu, misyonu ve değerleri."
+      },
+      "projects": {
+        "title": "Projelerimiz — GEGET",
+        "description": "Gençlik politikaları, eğitim ve sosyal projelerimiz."
+      },
+      "team": {
+        "title": "Ekibimiz — GEGET",
+        "description": "GEGET'in arkasındaki tutkulu ekip."
+      },
+      "contact": {
+        "title": "İletişim — GEGET",
+        "description": "Bizimle iletişime geçin."
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Sürdürülebilir bir dünya için sürdürülebilir gençlik politikaları",
+      "subtitle": "Gençlik Gelecek ve Toplum Derneği",
+      "scrollDown": "Aşağı kaydır"
+    },
+    "mission": {
+      "overline": "MİSYONUMUZ",
+      "quote": "Gençler için değil gençlerle birlikte bir dünya inşa etmek gerek",
+      "description": "GEGET olarak, gençlerin toplumsal karar alma süreçlerine aktif katılımını destekliyor, sürdürülebilir gençlik politikalarının geliştirilmesine öncülük ediyoruz."
+    },
+    "focusAreas": {
+      "overline": "ODAK ALANLARIMIZ",
+      "title": "Bir gençlik ekosistemi",
+      "subtitle": "Gençlerin potansiyelini açığa çıkarmak için altı temel alanda çalışıyoruz.",
+      "items": {
+        "youthPolicies": {
+          "title": "Gençlik Politikaları",
+          "description": "Kanıta dayalı, kapsayıcı gençlik politikalarının geliştirilmesi ve savunuculuğu."
+        },
+        "youthFriendlyCities": {
+          "title": "Genç Dostu Şehirler",
+          "description": "Gençlerin kentsel yaşama erişimini ve katılımını artıran şehir modelleri."
+        },
+        "youthWellbeing": {
+          "title": "Gençlerin İyi Olma Hali",
+          "description": "Gençlerin fiziksel, zihinsel ve sosyal refahını destekleyen programlar."
+        },
+        "youthNetworks": {
+          "title": "Gençlik Ağları",
+          "description": "Ulusal ve uluslararası gençlik ağlarının kurulması ve güçlendirilmesi."
+        },
+        "youthProjects": {
+          "title": "Gençlik Projeleri",
+          "description": "Gençlerin liderlik ve girişimcilik becerilerini geliştiren projeler."
+        },
+        "empowerment": {
+          "title": "Güçle Geleceğe Doğru",
+          "description": "Gençlerin karar alma mekanizmalarında güçlenmesini sağlayan çalışmalar."
+        }
+      }
+    },
+    "youthCities": {
+      "title": "Genç Dostu Şehirler",
+      "description": "Gençlerin şehir yaşamına aktif katılımını sağlayan, erişilebilir ve kapsayıcı kentsel modeller geliştiriyoruz.",
+      "accessible": {
+        "title": "Erişilebilir Kentler",
+        "points": [
+          "Gençlik merkezleri ve sosyal alanlar",
+          "Ulaşılabilir kamu hizmetleri",
+          "Dijital altyapı ve bağlantı"
+        ]
+      },
+      "dialogue": {
+        "title": "Gençlik Diyaloğu",
+        "points": [
+          "Yerel yönetimlerle düzenli istişare",
+          "Gençlik meclisleri ve platformları",
+          "Katılımcı bütçeleme süreçleri"
+        ]
+      }
+    },
+    "stats": {
+      "projects": { "value": "12", "label": "Proje" },
+      "partners": { "value": "8", "label": "Partner" },
+      "youth": { "value": "500", "label": "Genç" },
+      "cities": { "value": "5", "label": "Şehir" }
+    },
+    "cta": {
+      "title": "Gençlik Burada Olacak",
+      "description": "Gençlerin geleceğini birlikte şekillendirmek için bize katılın.",
+      "button": "İletişime Geç"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "breadcrumb": "Ana Sayfa / Hakkımızda",
+    "story": {
+      "overline": "HİKAYEMİZ",
+      "title": "Gençlerin Sesi Olmak",
+      "p1": "GEGET — Gençlik Gelecek ve Toplum Derneği, gençlerin toplumsal yaşamda etkin rol almasını sağlamak amacıyla kurulmuş bir sivil toplum kuruluşudur.",
+      "p2": "Sürdürülebilir gençlik politikalarının geliştirilmesi, genç dostu şehirlerin inşası ve gençlik ağlarının güçlendirilmesi temel çalışma alanlarımızdır.",
+      "p3": "Gençler için değil, gençlerle birlikte bir gelecek inşa etmek en büyük motivasyonumuzdur."
+    },
+    "vision": {
+      "title": "VİZYONUMUZ",
+      "description": "Gençlerin toplumsal karar alma süreçlerine tam ve eşit katılım sağladığı, sürdürülebilir ve kapsayıcı bir dünya."
+    },
+    "mission": {
+      "title": "MİSYONUMUZ",
+      "description": "Kanıta dayalı gençlik politikaları geliştirmek, gençlik ağlarını güçlendirmek ve gençlerin sesini duyurmak için çalışmak."
+    },
+    "philosophy": {
+      "overline": "FELSEFEMİZ",
+      "title": "Düşün, Tasarla, Hayata Geçir",
+      "steps": {
+        "think": {
+          "title": "Düşün",
+          "description": "Gençlerin ihtiyaçlarını analiz et, verileri incele."
+        },
+        "design": {
+          "title": "Tasarla",
+          "description": "Katılımcı yöntemlerle çözümler ve politikalar geliştir."
+        },
+        "implement": {
+          "title": "Hayata Geçir",
+          "description": "Projelerle somut değişim yarat, etkiyi ölç."
+        }
+      }
+    },
+    "values": {
+      "overline": "DEĞERLERİMİZ",
+      "title": "Bize Yol Gösteren İlkeler",
+      "items": {
+        "collaboration": {
+          "title": "İş Birliği",
+          "description": "Paydaşlarla birlikte çalışarak ortak çözümler üretmek."
+        },
+        "participation": {
+          "title": "Katılımcılık",
+          "description": "Gençlerin her aşamada aktif katılımını sağlamak."
+        },
+        "transparency": {
+          "title": "Şeffaflık",
+          "description": "Tüm süreçlerde açık ve hesap verebilir olmak."
+        },
+        "inclusivity": {
+          "title": "Kapsayıcılık",
+          "description": "Her genci, farklılıklarıyla birlikte kucaklamak."
+        },
+        "innovation": {
+          "title": "Yenilikçilik",
+          "description": "Yaratıcı ve yenilikçi yaklaşımlarla fark yaratmak."
+        },
+        "sustainability": {
+          "title": "Sürdürülebilirlik",
+          "description": "Uzun vadeli etki yaratan çalışmalar yürütmek."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "breadcrumb": "Ana Sayfa / Projelerimiz",
+    "filters": {
+      "all": "Tümü",
+      "policy": "Politika",
+      "education": "Eğitim",
+      "social": "Sosyal",
+      "technology": "Teknoloji"
+    },
+    "status": {
+      "active": "Aktif",
+      "completed": "Tamamlandı",
+      "planned": "Planlanan"
+    },
+    "items": {
+      "gencDostu": {
+        "title": "Genç Dostu Şehirler Programı",
+        "description": "Türkiye'nin çeşitli şehirlerinde gençlerin kentsel yaşama katılımını artırmayı hedefleyen kapsamlı bir program."
+      },
+      "politikaForumu": {
+        "title": "Gençlik Politikaları Forumu",
+        "description": "Ulusal ve uluslararası düzeyde gençlik politikalarının tartışıldığı, politika önerileri geliştirilen yıllık forum."
+      },
+      "dijitalOkuryazarlik": {
+        "title": "Dijital Okuryazarlık Atölyesi",
+        "description": "Gençlerin dijital yetkinliklerini artırmaya yönelik uygulamalı atölye çalışmaları."
+      },
+      "akranMentorluk": {
+        "title": "Akran Mentorluk Programı",
+        "description": "Deneyimli gençlerin akranlarına rehberlik ettiği, kişisel ve mesleki gelişimi destekleyen program."
+      },
+      "arastirmaRaporu": {
+        "title": "Gençlik Araştırma Raporu 2026",
+        "description": "Türkiye'deki gençlerin durumunu kapsamlı şekilde analiz eden araştırma raporu."
+      },
+      "kodlaGelecegini": {
+        "title": "Kodla Geleceğini Yaz",
+        "description": "Gençlere yazılım ve teknoloji alanında temel beceriler kazandıran eğitim programı."
+      }
+    },
+    "empty": {
+      "title": "Yakında",
+      "description": "Yakında projelerimizi burada paylaşacağız.",
+      "cta": "Bizimle iletişime geçin"
+    }
+  },
+  "team": {
+    "title": "Ekibimiz",
+    "breadcrumb": "Ana Sayfa / Ekibimiz",
+    "subtitle": "GEGET'in arkasındaki tutkulu ekip.",
+    "members": {
+      "halilEcer": {
+        "name": "Halil Ecer",
+        "role": "Kurucu Başkan",
+        "bio": "Gençlik politikaları ve sivil toplum alanında deneyimli lider."
+      },
+      "ayseKara": {
+        "name": "Ayşe Kara",
+        "role": "Başkan Yardımcısı",
+        "bio": "Sosyal politika ve proje yönetimi uzmanı."
+      },
+      "mehmetYilmaz": {
+        "name": "Mehmet Yılmaz",
+        "role": "Genel Sekreter",
+        "bio": "Kurumsal yönetim ve stratejik planlama konusunda uzman."
+      },
+      "zeynepDemir": {
+        "name": "Zeynep Demir",
+        "role": "Proje Koordinatörü",
+        "bio": "Uluslararası projeler ve hibe yönetimi deneyimli."
+      },
+      "canOzturk": {
+        "name": "Can Öztürk",
+        "role": "İletişim Sorumlusu",
+        "bio": "Dijital iletişim ve sosyal medya stratejisti."
+      },
+      "elifAydin": {
+        "name": "Elif Aydın",
+        "role": "Gençlik Çalışanı",
+        "bio": "Gençlik çalışmaları ve katılımcı yöntemler uzmanı."
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "breadcrumb": "Ana Sayfa / İletişim",
+    "form": {
+      "title": "Bize Yazın",
+      "name": "Adınız",
+      "namePlaceholder": "Adınızı girin",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta adresinizi girin",
+      "subject": "Konu",
+      "subjectPlaceholder": "Mesajınızın konusu",
+      "message": "Mesaj",
+      "messagePlaceholder": "Mesajınızı yazın...",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "validation": {
+        "nameRequired": "Ad alanı zorunludur.",
+        "nameMin": "Ad en az 2 karakter olmalıdır.",
+        "emailRequired": "E-posta alanı zorunludur.",
+        "emailInvalid": "Geçerli bir e-posta adresi girin.",
+        "subjectRequired": "Konu alanı zorunludur.",
+        "subjectMin": "Konu en az 3 karakter olmalıdır.",
+        "messageRequired": "Mesaj alanı zorunludur.",
+        "messageMin": "Mesaj en az 10 karakter olmalıdır."
+      }
+    },
+    "info": {
+      "title": "İletişim Bilgileri",
+      "email": "info@geget.org",
+      "emailLabel": "E-posta",
+      "instagram": "@genclikgelecekvetoplumdernegi",
+      "instagramLabel": "Instagram",
+      "twitter": "@halil_ecer",
+      "twitterLabel": "X (Twitter)",
+      "location": "İstanbul, Türkiye",
+      "locationLabel": "Konum"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "button": "Ana Sayfaya Dön"
+  }
+}

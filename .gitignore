@@ -1,23 +1,26 @@
-# Go
-backend/tmp/
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-*.test
-*.out
-vendor/
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
 
-# Node
-frontend/node_modules/
-frontend/.next/
-frontend/out/
+# Next.js
+.next/
+out/
+
+# Production
+build/
 
 # Environment
 .env
 .env.local
-.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # IDE
 .idea/
@@ -29,8 +32,9 @@ frontend/out/
 .DS_Store
 Thumbs.db
 
-# Docker
-postgres_data/
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
 
 # Logs
 *.log
