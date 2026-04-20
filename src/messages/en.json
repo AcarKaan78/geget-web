@@ -47,9 +47,21 @@
   },
   "home": {
     "hero": {
+      "eyebrow": "Youth, Future and Society Association",
+      "titleLead": "Sustainable youth policies",
+      "titleAccent": "for a sustainable world",
       "title": "Sustainable youth policies for a sustainable world",
       "subtitle": "Youth, Future and Society Association",
-      "scrollDown": "Scroll down"
+      "lede": "With evidence-based policy, youth-friendly cities, and strong youth networks — we bring young voices to the decision table.",
+      "ctaPrimary": "See Our Projects",
+      "ctaSecondary": "About Us",
+      "scrollDown": "Scroll down",
+      "credentials": [
+        "Independent",
+        "Non-profit",
+        "Ankara · Türkiye",
+        "Founded 2024"
+      ]
     },
     "mission": {
       "overline": "OUR MISSION",
@@ -306,7 +318,7 @@
       "instagramLabel": "Instagram",
       "twitter": "@halil_ecer",
       "twitterLabel": "X (Twitter)",
-      "location": "Istanbul, Turkiye",
+      "location": "Ankara, Turkiye",
       "locationLabel": "Location"
     }
   },

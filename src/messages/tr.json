@@ -47,9 +47,21 @@
   },
   "home": {
     "hero": {
+      "eyebrow": "Gençlik Gelecek ve Toplum Derneği",
+      "titleLead": "Sürdürülebilir bir dünya için",
+      "titleAccent": "sürdürülebilir gençlik politikaları",
       "title": "Sürdürülebilir bir dünya için sürdürülebilir gençlik politikaları",
       "subtitle": "Gençlik Gelecek ve Toplum Derneği",
-      "scrollDown": "Aşağı kaydır"
+      "lede": "Kanıta dayalı politikalar, genç dostu şehirler ve güçlü gençlik ağlarıyla gençlerin sesini karar masalarına taşıyoruz.",
+      "ctaPrimary": "Projeleri Gör",
+      "ctaSecondary": "Hakkımızda",
+      "scrollDown": "Aşağı kaydır",
+      "credentials": [
+        "Bağımsız",
+        "Kâr amacı gütmeyen",
+        "Türkiye · Ankara",
+        "Kurulus 2024"
+      ]
     },
     "mission": {
       "overline": "MİSYONUMUZ",
@@ -306,7 +318,7 @@
       "instagramLabel": "Instagram",
       "twitter": "@halil_ecer",
       "twitterLabel": "X (Twitter)",
-      "location": "İstanbul, Türkiye",
+      "location": "Ankara, Türkiye",
       "locationLabel": "Konum"
     }
   },
