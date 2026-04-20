@@ -21,5 +21,5 @@ export const CONTACT_INFO = {
   email: 'info@geget.org',
   instagram: '@genclikgelecekvetoplumdernegi',
   twitter: '@halil_ecer',
-  location: 'İstanbul, Türkiye',
+  location: 'Ankara, Türkiye',
 } as const;
