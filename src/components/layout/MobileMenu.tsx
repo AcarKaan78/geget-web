@@ -93,13 +93,13 @@ export default function MobileMenu({ isOpen, onClose, locale }: MobileMenuProps)
           >
             {/* Header with close button */}
             <div className="flex items-center justify-between px-6 h-16">
-              <span className="flex items-center gap-2 font-heading font-bold text-xl text-white">
+              <span className="flex items-center gap-2.5 font-heading font-bold text-xl text-white">
                 <Image
-                  src="/images/logo-color.png"
+                  src="/images/logo-mark.png"
                   alt="GEGET"
                   width={36}
                   height={36}
-                  className="h-9 w-9 object-contain"
+                  className="h-9 w-9 object-contain drop-shadow"
                 />
                 GEGET
               </span>
