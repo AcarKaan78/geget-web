@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { usePathname, useRouter } from 'next/navigation';
+import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
 interface LanguageSwitcherProps {
@@ -12,11 +13,6 @@ interface LanguageSwitcherProps {
 const locales = ['tr', 'en'] as const;
 type Locale = (typeof locales)[number];
 
-const localeLabels: Record<Locale, string> = {
-  tr: 'TR',
-  en: 'EN',
-};
-
 export default function LanguageSwitcher({
   light = false,
   className,
@@ -24,7 +20,6 @@ export default function LanguageSwitcher({
   const pathname = usePathname();
   const router = useRouter();
 
-  // Extract current locale from the first segment of the pathname
   const segments = pathname.split('/').filter(Boolean);
   const currentLocale: Locale =
     segments[0] && locales.includes(segments[0] as Locale)
@@ -33,58 +28,64 @@ export default function LanguageSwitcher({
 
   function switchLocale(locale: Locale) {
     if (locale === currentLocale) return;
-
-    // Replace the locale segment in the pathname
     const newSegments = [...segments];
     if (locales.includes(segments[0] as Locale)) {
       newSegments[0] = locale;
     } else {
       newSegments.unshift(locale);
     }
-
-    const newPath = '/' + newSegments.join('/');
-    router.push(newPath);
+    router.push('/' + newSegments.join('/'));
   }
 
   return (
     <div
       className={cn(
-        'inline-flex items-center gap-2 text-sm uppercase tracking-wide',
+        'relative inline-flex items-center rounded-full p-1 text-[11px] font-semibold uppercase tracking-[0.14em]',
+        'transition-colors duration-300',
+        light
+          ? 'bg-white/10 ring-1 ring-inset ring-white/15 backdrop-blur'
+          : 'bg-neutral-100 ring-1 ring-inset ring-neutral-200',
         className
       )}
+      role="group"
+      aria-label="Language switcher"
     >
-      {locales.map((locale, index) => (
-        <React.Fragment key={locale}>
-          {index > 0 && (
-            <span
-              className={cn(
-                light ? 'text-white/40' : 'text-neutral-300'
-              )}
-              aria-hidden="true"
-            >
-              |
-            </span>
-          )}
+      {locales.map((locale) => {
+        const isActive = locale === currentLocale;
+        return (
           <button
+            key={locale}
+            type="button"
             onClick={() => switchLocale(locale)}
+            aria-current={isActive ? 'true' : undefined}
             className={cn(
-              'transition-colors duration-200 hover:opacity-80',
-              locale === currentLocale
-                ? cn(
-                    'font-bold',
-                    light ? 'text-accent-300' : 'text-primary-500'
-                  )
-                : cn(
-                    light ? 'text-white/70' : 'text-neutral-500'
-                  )
+              'relative z-10 px-3 py-1 rounded-full transition-colors duration-300 min-w-[2.25rem]',
+              isActive
+                ? light
+                  ? 'text-primary-900'
+                  : 'text-white'
+                : light
+                  ? 'text-white/70 hover:text-white'
+                  : 'text-neutral-500 hover:text-neutral-800'
             )}
-            aria-label={`Switch to ${localeLabels[locale]}`}
-            aria-current={locale === currentLocale ? 'true' : undefined}
           >
-            {localeLabels[locale]}
+            {isActive && (
+              <motion.span
+                layoutId="lang-pill-thumb"
+                className={cn(
+                  'absolute inset-0 -z-10 rounded-full shadow-sm',
+                  light
+                    ? 'bg-white'
+                    : 'bg-primary-600'
+                )}
+                transition={{ type: 'spring', stiffness: 400, damping: 32 }}
+                aria-hidden="true"
+              />
+            )}
+            {locale.toUpperCase()}
           </button>
-        </React.Fragment>
-      ))}
+        );
+      })}
     </div>
   );
 }
