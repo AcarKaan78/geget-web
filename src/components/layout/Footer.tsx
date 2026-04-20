@@ -34,11 +34,11 @@ export default function Footer() {
               className="flex items-center gap-2 font-heading text-2xl font-bold tracking-tight"
             >
               <Image
-                src="/images/logo-color.png"
+                src="/images/logo-mark.png"
                 alt="GEGET"
                 width={40}
                 height={40}
-                className="h-10 w-10 object-contain"
+                className="h-10 w-10 object-contain drop-shadow"
               />
               GEGET
             </Link>
