@@ -70,7 +70,8 @@ function DepartmentBlock({ dept, index }: { dept: TeamDepartment; index: number 
 
 export default function TeamGrid() {
   const t = useTranslations('team');
-  const { founder, generalCoordinators, departments } = teamStructure;
+  const { founder, generalCoordinators, administrativeCoordinators, departments } =
+    teamStructure;
 
   return (
     <section className="py-20 bg-neutral-50">
@@ -106,12 +107,38 @@ export default function TeamGrid() {
         </div>
 
         <ScrollReveal delay={0.1}>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-            {generalCoordinators.map((person) => (
-              <MemberTile key={person.name} person={person} size="md" highlight />
-            ))}
+          <div className="max-w-2xl mx-auto">
+            <div className="flex items-center gap-3 mb-5 justify-center">
+              <span className="inline-block w-2 h-2 rotate-45 bg-accent-500" />
+              <h4 className="font-heading font-semibold text-base text-primary-800 uppercase tracking-widest">
+                {t('generalCoordination')}
+              </h4>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {generalCoordinators.map((person) => (
+                <MemberTile key={person.name} person={person} size="md" highlight />
+              ))}
+            </div>
           </div>
         </ScrollReveal>
+
+        {administrativeCoordinators.length > 0 && (
+          <ScrollReveal delay={0.15}>
+            <div className="max-w-3xl mx-auto mt-12">
+              <div className="flex items-center gap-3 mb-5 justify-center">
+                <span className="inline-block w-2 h-2 rotate-45 bg-accent-500" />
+                <h4 className="font-heading font-semibold text-base text-primary-800 uppercase tracking-widest">
+                  {t('administrativeCoordination')}
+                </h4>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {administrativeCoordinators.map((person) => (
+                  <MemberTile key={person.name} person={person} size="md" highlight />
+                ))}
+              </div>
+            </div>
+          </ScrollReveal>
+        )}
 
         <div className="mt-20">
           <SectionHeader title={t('structure')} />

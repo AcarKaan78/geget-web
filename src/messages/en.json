@@ -340,10 +340,13 @@
     "roles": {
       "founder": "Founding President",
       "generalCoordinator": "General Coordinator",
+      "administrativeCoordinator": "Administrative Coordinator",
       "departmentCoordinator": "Department Coordinator",
       "unitCoordinator": "Unit Coordinator",
       "member": "Member"
     },
+    "generalCoordination": "General Coordination",
+    "administrativeCoordination": "Administrative Coordination",
     "departments": {
       "project": {
         "name": "Projects Department",

@@ -340,10 +340,13 @@
     "roles": {
       "founder": "Kurucu Başkan",
       "generalCoordinator": "Genel Koordinatör",
+      "administrativeCoordinator": "İdari Koordinatör",
       "departmentCoordinator": "Departman Koordinatörü",
       "unitCoordinator": "Birim Koordinatörü",
       "member": "Üye"
     },
+    "generalCoordination": "Genel Koordinasyon",
+    "administrativeCoordination": "İdari Koordinasyon",
     "departments": {
       "project": {
         "name": "Proje Departmanı",
