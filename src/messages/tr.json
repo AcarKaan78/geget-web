@@ -4,6 +4,8 @@
       "home": "Ana Sayfa",
       "about": "Hakkımızda",
       "projects": "Projeler",
+      "gallery": "Galeri",
+      "blog": "Blog",
       "team": "Ekibimiz",
       "contact": "İletişim"
     },
@@ -34,6 +36,14 @@
       "projects": {
         "title": "Projelerimiz — GEGET",
         "description": "Gençlik politikaları, eğitim ve sosyal projelerimiz."
+      },
+      "gallery": {
+        "title": "Galeri — GEGET",
+        "description": "GEGET'in etkinlik, proje ve buluşmalarından kareler."
+      },
+      "blog": {
+        "title": "Blog — GEGET",
+        "description": "Gençlik politikaları, şehirler ve topluma dair yazılarımız."
       },
       "team": {
         "title": "Ekibimiz — GEGET",
@@ -245,41 +255,121 @@
       "cta": "Bizimle iletişime geçin"
     }
   },
+  "gallery": {
+    "title": "Galeri",
+    "breadcrumb": "Ana Sayfa / Galeri",
+    "subtitle": "Etkinliklerimiz, projelerimiz ve buluşmalarımızdan kareler.",
+    "close": "Kapat",
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "items": {
+      "geget-bulusmasi": "GEGET Buluşması",
+      "genclik-calisanlarini-guclendirme": "Gençlik Çalışanlarını Güçlendirme",
+      "kecioren-politika-sunumu": "Keçiören Belediyesi Politika Raporu Sunumu",
+      "sia-lansman-1": "SİA Lansmanı",
+      "sia-lansman-2": "SİA Lansmanı",
+      "akran-gp": "Akran Gençlik Programı",
+      "dumansiz-hava-sahasi": "Dumansız Hava Sahası",
+      "dumansiz-kamusal-alan": "Dumansız Kamusal Alan",
+      "genclerin-hayalindeki-sehir": "Gençlerin Hayalindeki Şehir",
+      "genclik-politikalari": "Gençlik Politikaları",
+      "genclik-sahasi-danismanligi": "Gençlik Sahası Danışmanlığı",
+      "lansman-1": "Lansman",
+      "lansman-2": "Lansman",
+      "lansman": "Lansman",
+      "soz-genclikte": "Söz Gençlikte",
+      "yesilay": "Yeşilay İş Birliği"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "breadcrumb": "Ana Sayfa / Blog",
+    "subtitle": "Gençlik, politika ve topluma dair yazılar.",
+    "readMore": "Devamını oku",
+    "backToList": "Tüm yazılara dön",
+    "minuteRead": "dk okuma",
+    "postsLabel": "Son Yazılar",
+    "categories": {
+      "policy": "Politika",
+      "city": "Şehirler",
+      "community": "Topluluk"
+    },
+    "posts": {
+      "genc-dostu-sehirler-neden-onemli": {
+        "title": "Genç Dostu Şehirler Neden Önemli?",
+        "excerpt": "Gençlerin şehir yaşamına katılımı, sadece onların değil; bütün bir toplumun geleceği için belirleyicidir. Peki bir şehri gerçekten 'genç dostu' yapan nedir?",
+        "content": [
+          "Şehirler, sadece binalardan ve caddelerden ibaret değildir; aynı zamanda bir yaşam tarzını, bir ortak hafızayı ve her gün birlikte kurulan bir kamusal alanı temsil eder. Gençler için bu ortak alan, kimlik inşasının ve sosyal katılımın en önemli zeminlerinden biridir.",
+          "Genç dostu bir şehrin temel ölçütleri arasında güvenli toplu taşıma, ücretsiz veya düşük maliyetli kültürel alanlar, erişilebilir gençlik merkezleri ve gençlerin karar alma masalarına dahil edildiği mekanizmalar yer alır. Yerel yönetimler bu alanlarda ne kadar kapsayıcı adımlar atarsa, gençlerin şehre aidiyeti o kadar güçlenir.",
+          "Ankara başta olmak üzere Türkiye'nin pek çok şehrinde bu yönde kıymetli adımlar atılıyor. GEGET olarak bu çalışmaları takip ediyor, gençlik meclisleri ve katılımcı bütçeleme süreçlerinin yaygınlaşması için saha çalışmaları yürütüyoruz.",
+          "Genç dostu bir şehri hayal etmek, aynı zamanda yarının toplumunu tasarlamaktır. Gençlerin sesini bugünden duymak, yarını hep birlikte inşa etmenin en sağlıklı yoludur."
+        ]
+      },
+      "genclik-politikalarinin-gelecegi": {
+        "title": "Gençlik Politikalarının Geleceği: Katılım ve Kanıt",
+        "excerpt": "Kanıta dayalı ve katılımcı gençlik politikaları, söylem düzeyinde kalmaktan çıkıp yerel yönetim programlarının merkezine yerleşmeye başlıyor. Önümüzdeki dönemde neler olacak?",
+        "content": [
+          "Gençlik politikalarının tarihi, uzun yıllar boyunca gençlere 'için' tasarlanan ama gençler 'ile' tasarlanmayan politikalarla şekillendi. Son yıllarda bu paradigma yavaş ama belirgin biçimde değişiyor: kararlar, verilerle ve genç katılımıyla birlikte alınıyor.",
+          "Kanıta dayalı yaklaşım, politika yapıcıların önsezilerle değil, saha araştırmaları ve nicel-nitel verilerle hareket etmesini gerektirir. Bu yüzden GEGET bünyesinde yürüttüğümüz araştırma programlarının çıktıları, yerel yönetimlerle paylaşılan politika raporlarının omurgasını oluşturuyor.",
+          "Katılımcılık ise gençlerin yalnızca anket nesnesi olarak değil, süreç boyunca paydaş olarak konumlanmasını ifade eder. Atölyeler, odak grupları, gençlik meclisi toplantıları ve dijital istişare platformları bu katılımın somut araçlarıdır.",
+          "Önümüzdeki dönemde bu iki yaklaşımın daha güçlü biçimde birleştiği, şeffaf ve ölçülebilir gençlik politikalarının yaygınlaşmasını bekliyoruz. GEGET olarak bu değişimin aktif bir parçası olmaya devam edeceğiz."
+        ]
+      },
+      "akran-mentorlugu-ile-guclenen-genclik": {
+        "title": "Akran Mentorluğu ile Güçlenen Gençlik",
+        "excerpt": "Akran mentorluğu, gençlerin birbirlerine duydukları güveni hem kişisel hem de mesleki gelişim için bir kaldıraca dönüştürüyor. Peki bu model neden işe yarıyor?",
+        "content": [
+          "Akran mentorluğu, aynı yaş grubundaki ya da benzer deneyimleri paylaşan gençlerden birinin diğerine rehberlik ettiği bir destek modelidir. Geleneksel mentorluktan farkı, güç asimetrisinin daha düşük ve güven ilişkisinin daha hızlı kurulmasıdır.",
+          "Gençler, kendilerini anladığını hissettikleri biriyle konuşurken daha açık ve rahat olur. Bu da hem öğrenme hızını hem de motivasyonu belirgin biçimde artırır. Özellikle üniversite geçişi, iş arama ve sivil topluma katılım gibi kritik eşiklerde bu model büyük bir fark yaratır.",
+          "GEGET'in yürüttüğü Akran Mentorluk Programı, farklı üniversitelerden ve bölgelerden katılımcıları bir araya getiriyor. Programdan mezun olan gençler çoğunlukla bir sonraki dönemin mentorları oluyor; böylece bilgi, dayanışma ve motivasyon kuşaktan kuşağa aktarılıyor.",
+          "Bu modelin en önemli çıktısı sadece bireysel gelişim değil; aynı zamanda genç dayanışmasının uzun vadeli bir ağ hâline gelmesidir. Bir gence destek olmak, aslında bir topluluğu güçlendirmek demektir."
+        ]
+      }
+    },
+    "empty": {
+      "title": "Yakında",
+      "description": "Yakında burada yeni yazılarla buluşacağız."
+    }
+  },
   "team": {
     "title": "Ekibimiz",
     "breadcrumb": "Ana Sayfa / Ekibimiz",
     "subtitle": "GEGET'in arkasındaki tutkulu ekip.",
-    "members": {
-      "halilEcer": {
-        "name": "Halil Ecer",
-        "role": "Kurucu Başkan",
-        "bio": "Gençlik politikaları ve sivil toplum alanında deneyimli lider."
+    "leadership": "Yönetim",
+    "structure": "Yapımız",
+    "roles": {
+      "founder": "Kurucu Başkan",
+      "generalCoordinator": "Genel Koordinatör",
+      "departmentCoordinator": "Departman Koordinatörü",
+      "unitCoordinator": "Birim Koordinatörü",
+      "member": "Üye"
+    },
+    "departments": {
+      "project": {
+        "name": "Proje Departmanı",
+        "description": "AB projeleri, sosyal sorumluluk çalışmaları ve akademik programlarla politika sahasında somut etki yaratıyoruz."
       },
-      "ayseKara": {
-        "name": "Ayşe Kara",
-        "role": "Başkan Yardımcısı",
-        "bio": "Sosyal politika ve proje yönetimi uzmanı."
+      "digitalMedia": {
+        "name": "Dijital Medya Departmanı",
+        "description": "Sosyal medya ve tasarım ekipleriyle GEGET'in sesini dijital alanda büyütüyoruz."
       },
-      "mehmetYilmaz": {
-        "name": "Mehmet Yılmaz",
-        "role": "Genel Sekreter",
-        "bio": "Kurumsal yönetim ve stratejik planlama konusunda uzman."
+      "organization": {
+        "name": "Organizasyon Departmanı",
+        "description": "Etkinlikler, buluşmalar ve saha çalışmalarının uçtan uca planlanmasını üstleniyoruz."
       },
-      "zeynepDemir": {
-        "name": "Zeynep Demir",
-        "role": "Proje Koordinatörü",
-        "bio": "Uluslararası projeler ve hibe yönetimi deneyimli."
-      },
-      "canOzturk": {
-        "name": "Can Öztürk",
-        "role": "İletişim Sorumlusu",
-        "bio": "Dijital iletişim ve sosyal medya stratejisti."
-      },
-      "elifAydin": {
-        "name": "Elif Aydın",
-        "role": "Gençlik Çalışanı",
-        "bio": "Gençlik çalışmaları ve katılımcı yöntemler uzmanı."
+      "press": {
+        "name": "Basın-Yayın Departmanı",
+        "description": "Çeviri ve editörlük birimleriyle yazılı üretimlerimizin kalitesini ve erişimini artırıyoruz."
       }
+    },
+    "units": {
+      "euProject": "AB Proje Birimi",
+      "socialResponsibility": "Sosyal Sorumluluk Proje Birimi",
+      "academy": "Akademi Birimi",
+      "socialMedia": "Sosyal Medya Birimi",
+      "design": "Tasarım Birimi",
+      "translation": "Çeviri Birimi",
+      "editorial": "Editörlük Birimi"
     }
   },
   "contact": {

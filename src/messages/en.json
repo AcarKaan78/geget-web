@@ -4,6 +4,8 @@
       "home": "Home",
       "about": "About",
       "projects": "Projects",
+      "gallery": "Gallery",
+      "blog": "Blog",
       "team": "Our Team",
       "contact": "Contact"
     },
@@ -34,6 +36,14 @@
       "projects": {
         "title": "Our Projects — GEGET",
         "description": "Our youth policy, education, and social impact projects."
+      },
+      "gallery": {
+        "title": "Gallery — GEGET",
+        "description": "Moments from GEGET's events, projects, and meetups."
+      },
+      "blog": {
+        "title": "Blog — GEGET",
+        "description": "Writing on youth policy, cities, and community."
       },
       "team": {
         "title": "Our Team — GEGET",
@@ -245,41 +255,121 @@
       "cta": "Get in touch with us"
     }
   },
+  "gallery": {
+    "title": "Gallery",
+    "breadcrumb": "Home / Gallery",
+    "subtitle": "Moments from our events, projects, and meetups.",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "items": {
+      "geget-bulusmasi": "GEGET Meetup",
+      "genclik-calisanlarini-guclendirme": "Empowering Youth Workers",
+      "kecioren-politika-sunumu": "Keçiören Policy Report Presentation",
+      "sia-lansman-1": "SİA Launch",
+      "sia-lansman-2": "SİA Launch",
+      "akran-gp": "Peer Youth Programme",
+      "dumansiz-hava-sahasi": "Smoke-Free Airspace",
+      "dumansiz-kamusal-alan": "Smoke-Free Public Space",
+      "genclerin-hayalindeki-sehir": "The City Youth Dream Of",
+      "genclik-politikalari": "Youth Policies",
+      "genclik-sahasi-danismanligi": "Youth Field Consultation",
+      "lansman-1": "Launch",
+      "lansman-2": "Launch",
+      "lansman": "Launch",
+      "soz-genclikte": "The Word Is with Youth",
+      "yesilay": "Yeşilay Collaboration"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "breadcrumb": "Home / Blog",
+    "subtitle": "Writing on youth, policy, and community.",
+    "readMore": "Read more",
+    "backToList": "Back to all posts",
+    "minuteRead": "min read",
+    "postsLabel": "Latest Posts",
+    "categories": {
+      "policy": "Policy",
+      "city": "Cities",
+      "community": "Community"
+    },
+    "posts": {
+      "genc-dostu-sehirler-neden-onemli": {
+        "title": "Why Do Youth-Friendly Cities Matter?",
+        "excerpt": "Youth participation in city life is decisive not only for young people but for the future of society as a whole. So what actually makes a city 'youth-friendly'?",
+        "content": [
+          "Cities are not only buildings and streets; they represent a way of life, a shared memory, and a public space that is co-produced every day. For young people, that shared space is one of the most important grounds for identity-building and social participation.",
+          "The core criteria of a youth-friendly city include safe public transportation, free or low-cost cultural spaces, accessible youth centres, and mechanisms that bring young people to decision-making tables. The more inclusively local governments move on these fronts, the stronger young people's sense of belonging becomes.",
+          "Meaningful steps in this direction are being taken in many cities across Türkiye, most notably in Ankara. At GEGET, we follow this work closely and carry out field research to scale up youth councils and participatory budgeting practices.",
+          "Imagining a youth-friendly city is, in effect, designing the society of tomorrow. Hearing young people's voices today is the healthiest way of building tomorrow together."
+        ]
+      },
+      "genclik-politikalarinin-gelecegi": {
+        "title": "The Future of Youth Policy: Participation and Evidence",
+        "excerpt": "Evidence-based and participatory youth policy is moving from rhetoric into the heart of local government programmes. What should we expect next?",
+        "content": [
+          "For many years, youth policy was designed 'for' young people but rarely 'with' them. That paradigm has been shifting slowly but clearly: decisions are increasingly taken alongside data and with youth participation.",
+          "An evidence-based approach requires policymakers to act on field research and both quantitative and qualitative data, rather than gut instinct. That is why the outputs of the research programmes we run at GEGET form the backbone of the policy reports we share with local governments.",
+          "Participation, meanwhile, means positioning young people not merely as survey subjects but as stakeholders throughout the process. Workshops, focus groups, youth council meetings, and digital consultation platforms are concrete tools for this kind of engagement.",
+          "In the period ahead, we expect these two approaches to combine more powerfully, with transparent and measurable youth policy becoming more common. GEGET will continue to be an active part of this change."
+        ]
+      },
+      "akran-mentorlugu-ile-guclenen-genclik": {
+        "title": "Young People Empowered Through Peer Mentoring",
+        "excerpt": "Peer mentoring turns the trust young people already share into a lever for personal and professional growth. Why does this model work so well?",
+        "content": [
+          "Peer mentoring is a support model in which one young person — from the same age group or with similar lived experience — guides another. What distinguishes it from traditional mentoring is that the power asymmetry is lower and trust is built much faster.",
+          "Young people open up more easily when talking to someone who genuinely understands them. That boosts both the pace of learning and motivation. The effect is especially visible at critical thresholds such as entering university, job-seeking, or getting involved in civil society.",
+          "GEGET's Peer Mentoring Programme brings together participants from different universities and regions. Many graduates of the programme go on to become mentors in the following cycle, so knowledge, solidarity, and motivation pass from generation to generation.",
+          "The most important outcome of this model is not only individual development; it is that youth solidarity turns into a long-lasting network. Supporting one young person, in effect, means strengthening a whole community."
+        ]
+      }
+    },
+    "empty": {
+      "title": "Coming Soon",
+      "description": "We will be sharing new posts here soon."
+    }
+  },
   "team": {
     "title": "Our Team",
     "breadcrumb": "Home / Our Team",
     "subtitle": "The passionate team behind GEGET.",
-    "members": {
-      "halilEcer": {
-        "name": "Halil Ecer",
-        "role": "Founding President",
-        "bio": "An experienced leader in youth policy and civil society."
+    "leadership": "Leadership",
+    "structure": "Our Structure",
+    "roles": {
+      "founder": "Founding President",
+      "generalCoordinator": "General Coordinator",
+      "departmentCoordinator": "Department Coordinator",
+      "unitCoordinator": "Unit Coordinator",
+      "member": "Member"
+    },
+    "departments": {
+      "project": {
+        "name": "Projects Department",
+        "description": "Through EU projects, social responsibility work, and academic programmes we create tangible impact in the policy arena."
       },
-      "ayseKara": {
-        "name": "Ayşe Kara",
-        "role": "Vice President",
-        "bio": "Specialist in social policy and project management."
+      "digitalMedia": {
+        "name": "Digital Media Department",
+        "description": "With our social media and design teams we amplify GEGET's voice across digital spaces."
       },
-      "mehmetYilmaz": {
-        "name": "Mehmet Yılmaz",
-        "role": "Secretary General",
-        "bio": "Expert in institutional governance and strategic planning."
+      "organization": {
+        "name": "Organisation Department",
+        "description": "We run the end-to-end planning of events, meetups, and field activities."
       },
-      "zeynepDemir": {
-        "name": "Zeynep Demir",
-        "role": "Project Coordinator",
-        "bio": "Experienced in international projects and grant management."
-      },
-      "canOzturk": {
-        "name": "Can Öztürk",
-        "role": "Communications Officer",
-        "bio": "Digital communications and social media strategist."
-      },
-      "elifAydin": {
-        "name": "Elif Aydın",
-        "role": "Youth Worker",
-        "bio": "Specialist in youth work and participatory methods."
+      "press": {
+        "name": "Press & Publishing Department",
+        "description": "Through our translation and editorial units we lift the quality and reach of our written output."
       }
+    },
+    "units": {
+      "euProject": "EU Projects Unit",
+      "socialResponsibility": "Social Responsibility Projects Unit",
+      "academy": "Academy Unit",
+      "socialMedia": "Social Media Unit",
+      "design": "Design Unit",
+      "translation": "Translation Unit",
+      "editorial": "Editorial Unit"
     }
   },
   "contact": {
@@ -318,7 +408,7 @@
       "instagramLabel": "Instagram",
       "twitter": "@halil_ecer",
       "twitterLabel": "X (Twitter)",
-      "location": "Ankara, Turkiye",
+      "location": "Ankara, Türkiye",
       "locationLabel": "Location"
     }
   },
