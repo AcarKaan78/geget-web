@@ -46,7 +46,7 @@ export const teamStructure: TeamStructure = {
   administrativeCoordinators: [
     { name: 'Eren Soylu', roleKey: 'administrativeCoordinator', image: IMG('eren-soylu') },
     { name: 'Ayşegül Dinçer', roleKey: 'administrativeCoordinator', image: IMG('aysegul-dincer') },
-    { name: 'Emir Arslan', roleKey: 'administrativeCoordinator' },
+    { name: 'Emir Aslan', roleKey: 'administrativeCoordinator', image: IMG('emir-aslan') },
   ],
   departments: [
     {
@@ -89,7 +89,11 @@ export const teamStructure: TeamStructure = {
         {
           slug: 'socialResponsibility',
           nameKey: 'units.socialResponsibility',
-          coordinator: { name: 'Münevver Ertürk', roleKey: 'unitCoordinator' },
+          coordinator: {
+            name: 'Münevver Ertürk',
+            roleKey: 'unitCoordinator',
+            image: IMG('munevver-erturk'),
+          },
           members: [
             { name: 'Ahmet Hakan Koşar', roleKey: 'member', image: IMG('ahmet-hakan-kosar') },
             { name: 'Buse Karadavut', roleKey: 'member', image: IMG('buse-karadavut') },
@@ -132,7 +136,11 @@ export const teamStructure: TeamStructure = {
       slug: 'organization',
       nameKey: 'departments.organization.name',
       descriptionKey: 'departments.organization.description',
-      coordinator: { name: 'Mehmet Ali Şahin', roleKey: 'departmentCoordinator' },
+      coordinator: {
+        name: 'Mehmet Ali Şahin',
+        roleKey: 'departmentCoordinator',
+        image: IMG('mehmet-ali-sahin'),
+      },
       members: [
         { name: 'Esma Sare Usta', roleKey: 'member', image: IMG('esma-sare-usta') },
         { name: 'Emirhan Aytemur', roleKey: 'member', image: IMG('emirhan-aytemur') },
