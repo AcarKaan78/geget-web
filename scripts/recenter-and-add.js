@@ -11,7 +11,7 @@ const QUALITY = 82;
 
 // Re-cropped (centered on face) entries — extract is applied AFTER .rotate().
 const RECROPS = [
-  { src: SRC_OLD, file: 'Burak Mert Cömert.jpg', slug: 'burak-mert-comert', crop: { left: 259, top: 0,   size: 400 } },
+  { src: SRC_OLD, file: 'Burak Mert Cömert.jpg', slug: 'burak-mert-comert', crop: { left: 170, top: 0,   size: 400 } },
   { src: SRC_OLD, file: 'Eren Soylu',            slug: 'eren-soylu',         crop: { left: 1099, top: 1528, size: 1800 } },
   { src: SRC_OLD, file: 'Yasemin Gürlek.png',    slug: 'yasemin-gurlek',     crop: { left: 418, top: 358, size: 478 } },
   { src: SRC_OLD, file: 'Sevda Rezaei.jpg',      slug: 'sevda-rezaei',       crop: { left: 1099, top: 1385, size: 1800 } },
