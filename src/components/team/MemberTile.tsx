@@ -10,6 +10,7 @@ interface MemberTileProps {
   person: TeamPerson;
   size?: 'sm' | 'md' | 'lg';
   highlight?: boolean;
+  onSelect?: (person: TeamPerson) => void;
 }
 
 function getInitials(name: string): string {
@@ -49,30 +50,48 @@ export default function MemberTile({
   person,
   size = 'md',
   highlight = false,
+  onSelect,
 }: MemberTileProps) {
   const t = useTranslations('team');
   const s = sizeStyles[size];
   const role = t(`roles.${person.roleKey}`);
   const initials = getInitials(person.name);
+  const isInteractive = !!person.bioKey && !!onSelect;
 
-  return (
-    <div
-      className={cn(
-        'rounded-xl bg-white border text-center',
-        'transition-all duration-300 hover:-translate-y-1 hover:shadow-lg',
-        highlight
-          ? 'border-primary-300 shadow-md bg-gradient-to-b from-white to-primary-50/40'
-          : 'border-neutral-200 shadow-sm',
-        s.padding
+  const containerClasses = cn(
+    'group relative rounded-xl bg-white border text-center w-full',
+    'transition-all duration-300',
+    isInteractive
+      ? 'hover:-translate-y-1.5 hover:shadow-xl hover:border-primary-300 cursor-pointer'
+      : 'hover:-translate-y-1 hover:shadow-lg',
+    highlight
+      ? 'border-primary-300 shadow-md bg-gradient-to-b from-white to-primary-50/40'
+      : 'border-neutral-200 shadow-sm',
+    s.padding
+  );
+
+  const innerContent = (
+    <>
+      {/* Subtle "open" hint diamond for interactive tiles */}
+      {isInteractive && (
+        <span
+          aria-hidden
+          className={cn(
+            'absolute top-3 right-3 w-1.5 h-1.5 rotate-45 transition-all duration-300',
+            highlight ? 'bg-accent-500' : 'bg-primary-400',
+            'opacity-0 group-hover:opacity-100 group-hover:scale-150'
+          )}
+        />
       )}
-    >
+
       <div className="flex justify-center">
         <div
           className={cn(
-            'relative rotate-45 overflow-hidden rounded-md ring-1',
+            'relative rotate-45 overflow-hidden rounded-md ring-1 transition-all duration-300',
+            isInteractive && 'group-hover:ring-2',
             highlight
-              ? 'bg-gradient-to-br from-primary-500 to-primary-700 ring-primary-300'
-              : 'bg-gradient-to-br from-primary-400 to-primary-600 ring-primary-200',
+              ? 'bg-gradient-to-br from-primary-500 to-primary-700 ring-primary-300 group-hover:ring-primary-500'
+              : 'bg-gradient-to-br from-primary-400 to-primary-600 ring-primary-200 group-hover:ring-primary-400',
             s.avatar
           )}
         >
@@ -103,7 +122,8 @@ export default function MemberTile({
 
       <h3
         className={cn(
-          'font-heading font-semibold mt-5 text-neutral-900',
+          'font-heading font-semibold mt-5 text-neutral-900 transition-colors duration-300',
+          isInteractive && 'group-hover:text-primary-700',
           s.name
         )}
       >
@@ -119,6 +139,36 @@ export default function MemberTile({
       >
         {role}
       </p>
-    </div>
+
+      {/* Animated underline reveal for interactive tiles */}
+      {isInteractive && (
+        <span
+          aria-hidden
+          className={cn(
+            'absolute left-1/2 -translate-x-1/2 bottom-3 h-0.5 w-0',
+            'bg-gradient-to-r from-transparent via-primary-500 to-transparent',
+            'transition-all duration-500 group-hover:w-12'
+          )}
+        />
+      )}
+    </>
   );
+
+  if (isInteractive) {
+    return (
+      <button
+        type="button"
+        onClick={() => onSelect!(person)}
+        aria-label={`${person.name} — ${role}`}
+        className={cn(
+          containerClasses,
+          'text-left focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2'
+        )}
+      >
+        {innerContent}
+      </button>
+    );
+  }
+
+  return <div className={containerClasses}>{innerContent}</div>;
 }

@@ -373,6 +373,175 @@
       "design": "Design Unit",
       "translation": "Translation Unit",
       "editorial": "Editorial Unit"
+    },
+    "modal": {
+      "close": "Close",
+      "readBio": "Read biography"
+    },
+    "bios": {
+      "halilEcer": {
+        "tagline": "Urban & society · Youth policy · Local governance",
+        "paragraphs": [
+          "Halil Ecer completed his undergraduate studies at İnönü University Political Science and Public Administration, his master's at Gaziantep University Interdisciplinary Urban Studies (Urban and Society Studies), and his doctorate across METU Urban Policy and Local Governments (2019-2020 special student) and Ankara Hacı Bayram Veli University Sociology (youth policy and urban sociology).",
+          "He works in the urban and society field on the social reflections of spatial transformation, both in academia and civil society. In urban sociology he carries out sociological needs analyses and social impact assessments to inform the policy-making processes of local governments.",
+          "Alongside his work in youth policy, he is the founder of the Başkent Youth Council and the founding president of GEGET. His areas of expertise include participatory models in urban policy, youth participation models, and local governance."
+        ]
+      },
+      "rumeysaCakir": {
+        "tagline": "Psychology · Youth participation · EU projects",
+        "paragraphs": [
+          "Rümeysa Çakır is an undergraduate at Ankara University Department of Psychology. She currently serves on the Board and as General Coordinator at GEGET, working on institutional development, youth participation, social responsibility, EU project processes, and digital communications. She also facilitates workshops and organisational processes that support active youth participation.",
+          "She has contributed to gender equality projects at the Change Leaders Association, supporting awareness-raising and career identity development for young people. She took part in the \"Dodo Reads Books\" project in a disadvantaged neighbourhood and held several leadership roles in the Ankara University Psychoanalysis Student Society.",
+          "On the research side she is a researcher on a TÜBİTAK 2209 project, actively involved in data collection and analysis. She also serves as digital media coordinator and youth board member at the Anadolu Education, Culture and Science Foundation.",
+          "Her article \"From the Individual to Society: Is Mainstream Psychology Really Enough Against Disinformation?\" was published in Bilim ve Ütopya magazine.",
+          "Her interests include psychology, youth participation, gender equality, psychoeducation, and social-impact-focused project development."
+        ]
+      },
+      "erenSoylu": {
+        "tagline": "Law · Project writing · Debate",
+        "paragraphs": [
+          "Eren Soylu is a second-year student at Atılım University Faculty of Law. He is skilled in communication, team leadership, project cycle management (PCM), and administrative coordination, with strong abilities in grant and project writing, ideation, in-house training, and advanced argumentation.",
+          "He is actively involved in civil society and project management. As Administrative Coordinator and Project Writer at GEGET, he leads the writing of key projects such as K-154, ESC30, and K210. Through Politika Platformu he has co-authored \"Erzincan/Kemaliye - Developing a Local Government Participation Model\" and \"Kemaliye Nature and Sports Academy.\" He has also taken part in the Capital Youth Policy Writing Workshops via the Peer Project and contributed as an earthquake relief volunteer with the Düşünen Gençler Society.",
+          "He stands out for his leadership at university organisations as well: Board Member of the Atılımcı Lawyers Society and Coordinator of its In-House Capacity Building Programme. He is also the founding president of the Atılımcı Debate and Workshop Society and serves as a debate trainer."
+        ]
+      },
+      "aysegulDincer": {
+        "tagline": "Translation Studies · Language & communication",
+        "paragraphs": [
+          "Ayşegül Dinçer studies English Translation and Interpreting at Çankaya University, focusing her academic development on language and communication skills. She volunteers at GEGET, observing team dynamics and building her capacity to take responsibility within organisational processes.",
+          "Reinforcing her English proficiency through academic and everyday practice, she is known for adapting quickly to new environments. With an open, disciplined approach to learning, she aims to take an active role in team work.",
+          "She continues her professional growth sustainably, supporting her language and communication skills with community-driven activities."
+        ]
+      },
+      "iremDemirci": {
+        "tagline": "International Relations · EU projects",
+        "paragraphs": [
+          "İrem Demirci is a graduate of the English-language International Relations programme at Ankara Hacı Bayram Veli University. She led a student society for a year, completed an HR internship, and later worked in advertising and media. At GEGET she has contributed to the writing of the ESC30 and KA154 projects and broadened her project-management know-how through the \"Everyone Loves Planning\" training. She supports the team in coordination, activity planning, and project creation.",
+          "Thanks to the association's strong culture of mutual support and youth empowerment, she develops herself both in her areas of interest and in EU projects. She is interested in political philosophy and gender equality and aims to develop projects with her team in climate change, ecofeminism, and participatory democracy."
+        ]
+      },
+      "fatmaNurKaragoz": {
+        "tagline": "Psychology · Field experience · Project writing",
+        "paragraphs": [
+          "An undergraduate in Psychology, Fatma Nur Karagöz supports her academic studies with field experience and civil society work. During her internship at Mavi At Café under the Federation of Schizophrenia Associations, she engaged with individuals diagnosed with psychotic disorders and built clinical observation and communication skills.",
+          "Active in social projects such as \"Dodo Reads Books,\" Karagöz works on GEGET's Social Media, Design, and Project teams. In addition to the \"Everyone Loves Planning\" training, she has been involved in the writing of the KA154 and ESC30 projects, developing technical capability in needs analysis, system design, and feasibility analysis. Combining psychological awareness with project discipline, she continues her civil society work with strong teamwork and organisational skills."
+        ]
+      },
+      "serifeNurKus": {
+        "tagline": "Psychology · Social psychology · EU projects",
+        "paragraphs": [
+          "Şerife Nur Kuş is an undergraduate at Ankara University Department of Psychology. Through her clinical internship she gained hands-on experience in client observation and basic psychological assessment. She is interested in social psychology and gender studies, and continues to develop her academic and field experience in these areas.",
+          "She has participated in events organised by the Ministry of Youth and Sports and various NGOs, strengthening her teamwork and communication skills. She has played an active role in social projects, contributing to their implementation. At GEGET she works on the EU Projects team, taking an active role in content development and writing for ESC30 and KA154.",
+          "She has expanded her project-writing know-how through the \"Everyone Loves Planning\" training and has gained experience in project cycle management through her participation in EU projects. She is interested in postmodern art and aims to develop projects focused on climate change, sustainability, and gender."
+        ]
+      },
+      "yaseminGurlek": {
+        "tagline": "Psychology · Erasmus+ · Project writing",
+        "paragraphs": [
+          "Yasemin Gürlek studies at Ankara University Department of Psychology. She gained international experience through Erasmus+ projects and began developing an interest in projects in the youth field. She has contributed to the writing of the KA154 and ESC30 projects and further developed her project-writing skills through the \"Everyone Loves Planning\" training. She supports her team particularly in system design, needs analysis, and feasibility."
+        ]
+      },
+      "melisaKara": {
+        "tagline": "International Trade · Youth participation",
+        "paragraphs": [
+          "Melisa Kara studies International Trade and Finance (English) at Ankara Medipol University. She has volunteered with the Ministry of Youth and Sports, local youth councils, youth associations, and various volunteer organisations. She has contributed to the writing of international exchange and mobility projects, supporting youth empowerment. She remains an active youth participant in national and international projects and programmes. She enjoys and performs Turkish art music and aims to work in the field of gender equality."
+        ]
+      },
+      "evrenSari": {
+        "tagline": "Philosophy · Psychology · Neuroscience",
+        "paragraphs": [
+          "Evren Sarı is a graduate of Istanbul University Department of Philosophy and a final-year undergraduate at Ankara University Department of Psychology, conducting scientific work in cognitive psychology, social psychology, and neuroscience.",
+          "Active in civil society, Sarı is a founding board member of the Ankara University Child Abuse Prevention Society and Head of the Academic Commission at GEGET. He has also volunteered as a field worker providing psychosocial support to disadvantaged children affected by war.",
+          "Combining intermediate research and data analysis skills (SPSS, R, MAXQDA) with educational consultancy, he develops innovative projects such as the \"Data-Driven Neurocognitive Tracking Ecosystem.\" In addition to academic and civil society work, he is a published author of a psychological novel, a qualified investor, and a licensed athlete — a multidisciplinary profile bringing together different fields."
+        ]
+      },
+      "haticeRanaAktas": {
+        "tagline": "Psychology · Academic events · Magazine design",
+        "paragraphs": [
+          "Hatice Rana Aktaş is a third-year Psychology student at Ankara University. She volunteers in GEGET's Academy Department. She served for a year as Resource Developer at Altı Üstü Psikoloji, where she organised events and seminars and contributed to budget planning. At Gençpsider she was part of the Academic Events team, organising various psychology-focused events and seminars.",
+          "She is currently a volunteer on the Project Funding team at Ankara Genç İHH, magazine designer of Psifoni — the journal of the Ankara University Psychology Student Society (AÜPOT) — and University Representative at Altı Üstü Psikoloji.",
+          "She speaks Japanese at A2 level and English at C1. Her next target language is Arabic. In high school she was a licensed kickboxer and now explores different sports."
+        ]
+      },
+      "ayseRanaSelvitopu": {
+        "tagline": "English Teaching · International Relations · MUN",
+        "paragraphs": [
+          "Combining her academic achievements at Hacettepe University English Language Teaching and Anadolu University International Relations with an interdisciplinary vision, Ayşe Rana Selvitopu works in GEGET's Project Department Academy Unit.",
+          "Since high school she has held senior executive responsibilities in national and international MUN (Model United Nations) and youth workshops, building a strong foundation in organisational management and diplomacy. Embracing a multidisciplinary work principle, Selvitopu plays an active role in projects' global literature reviews and academic structuring with her advanced English, French, and Russian.",
+          "Focused on the academic design and strategic planning of projects under GEGET, Selvitopu continues to contribute to civil society literature in line with sustainable development and quality-education goals."
+        ]
+      },
+      "munevverErturk": {
+        "tagline": "Education · Project management · Field coordination",
+        "paragraphs": [
+          "A teacher and graduate of Gaziantep University, Münevver Ertürk has been active in civil society since her university years. She has gained experience in project management, team coordination, and organisational processes through coordinating educational and youth projects. She brings a strong sense of social responsibility to her professional life and aims to create societal impact."
+        ]
+      },
+      "ahmetHakanKosar": {
+        "tagline": "Law · Literature · Diplomacy",
+        "paragraphs": [
+          "Ahmet Hakan Koşar studies at the Faculty of Law at Atılım University. He is a member of our Social Responsibility Projects Department and develops himself in areas such as literature, human rights, diplomacy, and basketball."
+        ]
+      },
+      "buseKaradavut": {
+        "tagline": "Business · Psychology · Risk management",
+        "paragraphs": [
+          "Buse Karadavut is a third-year Business Administration student at Başkent University. A member of our Social Responsibility Projects Department, she also volunteers with UCIM, taking part in work for social good. She develops herself in psychology, project management, risk management, and social awareness."
+        ]
+      },
+      "kubraDemir": {
+        "tagline": "Translation · Social media · Translation work",
+        "paragraphs": [
+          "Kübra Demir, an English Translation and Interpreting student at Çankaya University, complements her academic studies with civil society and volunteer work. As social media coordinator she actively produces content and runs digital communications, building her coordination and organisation skills.",
+          "Through her university's LÖSEV society she contributes to social-responsibility events. She also works in translation, putting her language skills into practice. She continues to develop her ability to adapt to different environments, work in teams, and take responsibility."
+        ]
+      },
+      "sevdaRezaei": {
+        "tagline": "Nursing · Social media · Design",
+        "paragraphs": [
+          "Sevda Rezaei is a fourth-year Nursing student at the University of Health Sciences. She supports her academic studies with active roles in NGOs and student societies. She is a board member of her university's archery club, and her achievements in competitive sport have reinforced her disciplined, goal-oriented way of working.",
+          "At GEGET she serves as Social Media and Design Coordinator, gaining experience in digital content production, corporate communications, and team coordination. She has also worked as a coordinator on the International Relations Commission of the ÖHDER Association, taking active responsibility in project development, organisation management, and international communications.",
+          "She has advanced English (C1) and stands out for her strong organisational skills, teamwork, and sense of responsibility. She aims to combine the precision and ethical approach required by the nursing profession with her managerial and social experience as she continues her professional development."
+        ]
+      },
+      "seydanurKavak": {
+        "tagline": "Law · Brand identity · Design leadership",
+        "paragraphs": [
+          "A graduate of Anadolu University Faculty of Law, Şeydanur Kavak has complemented her legal education with active roles in civil society and youth formations. She built experience in digital communications and content strategy at Law Circle, then took on the role of Design Team Coordinator at GEGET, leading team management and brand-identity processes.",
+          "She has continued this work as a volunteer at Türkishe, deepening her experience in social projects. Known for fast adaptation to dynamic structures, crisis management, and strong organisational skills, Kavak blends the rigour of the legal discipline with creative processes. She aims to keep combining a legal perspective with solution-oriented projects to turn her professional expertise into social impact."
+        ]
+      },
+      "aleynaAkgul": {
+        "tagline": "International Relations · Cultural studies · Design",
+        "paragraphs": [
+          "A graduate of the English-language International Relations programme at Ankara Hacı Bayram Veli University, Aleyna Akgül has complemented her academic studies with cultural and civil society work. As deputy chair of the Japanese and Korean Cultural Research Society she took an active role in organisation and team management.",
+          "Through volunteer Korean teaching and blog writing she gained experience in cross-cultural communication and content production. She gained practical foreign-policy analysis experience through an internship at the Foreign Policy Institute. She has also contributed to GEGET as a designer, supporting digital content and visual communication.",
+          "Disciplined, collaborative, and solution-oriented, she aims to create social impact by combining her international perspective with cultural studies."
+        ]
+      },
+      "zeynepsuGundogan": {
+        "tagline": "French Language · Debate · Multilingual translation",
+        "paragraphs": [
+          "Zeynepsu Gündoğan brings a versatile profile to civil society and academia. A student of French Language and Literature at Ankara Hacı Bayram Veli University, she also serves as President of the Debate Society. This leadership role has equipped her with critical skills such as crisis management and strategic thinking in front of an audience.",
+          "At GEGET she serves as Coordinator of the Translation Unit. Her command of Turkish, French, English, and German technically supports the association's multilingual structure. Her experience in youth policy and international projects forms the foundation of her work discipline."
+        ]
+      },
+      "aybukeIdilFidan": {
+        "tagline": "Translation · Press & media · Volunteering",
+        "paragraphs": [
+          "Aybüke İdil Fidan, an English Translation and Interpreting student at Çankaya University, develops her language skills together with civil society work and volunteering. As General Coordinator of her university's LÖSEV society she has built experience in organisation and team management through planning and running events. She also serves as Content and Social Media Officer in the Translation Society, taking part in digital content production, social media management, and communications.",
+          "At GEGET, as Press and Media Officer, she has contributed to written TR-EN and EN-TR translation. She has been involved in project development and writing under the European Solidarity Corps (ESC). For a year she volunteered as an online English teacher for primary-school students, gaining experience in communicating with and teaching different age groups.",
+          "Across these experiences she continues to develop her communication, coordination, content production, and multilingual work skills."
+        ]
+      },
+      "ayyuceYilmaz": {
+        "tagline": "Counselling · Editorial · Clinical psychology",
+        "paragraphs": [
+          "Ayyüce Yılmaz is a second-year student in the Psychological Counselling and Guidance (PCG) programme at Kastamonu University. She has gained experience in content production and reporting by actively contributing to academic research, presentations, and group projects.",
+          "She has taken part in social responsibility projects and serves as an editor in the university magazine, working on content production and copy editing. She regularly attends university society activities, building experience in teamwork and organisation.",
+          "She is skilled in effective communication, public speaking, problem solving, and analysis, and is proficient in Microsoft Office. She is interested in clinical psychology, counselling processes, and neuroscience, and continues to develop herself in these areas. Her English is at an intermediate level."
+        ]
+      }
     }
   },
   "contact": {

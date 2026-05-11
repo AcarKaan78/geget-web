@@ -373,6 +373,175 @@
       "design": "Tasarım Birimi",
       "translation": "Çeviri Birimi",
       "editorial": "Editörlük Birimi"
+    },
+    "modal": {
+      "close": "Kapat",
+      "readBio": "Biyografiyi oku"
+    },
+    "bios": {
+      "halilEcer": {
+        "tagline": "Kent ve toplum, gençlik politikaları, yerel yönetimler",
+        "paragraphs": [
+          "Halil ECER, lisans öğrenimini İnönü Üniversitesi Siyaset Bilimi ve Kamu Yönetimi bölümünde, yüksek lisans öğrenimini Gaziantep Üniversitesi Disiplinlerarası Kent Çalışmaları (Kent ve Toplum çalışmaları) Anabilim Dalında, doktora öğrenimini ODTÜ Kent Politikası ve Yerel Yönetimler (2019-2020 özel öğrenci) ile Ankara Hacı Bayram Veli Üniversitesi Sosyoloji (gençlik politikaları ve kent sosyolojisi) bölümünde tamamlamıştır.",
+          "Kent ve toplum alanında mekânsal dönüşümün toplumsal yansımaları üzerine akademik ve sivil toplum alanında çalışmalar gerçekleştirmektedir. Kent sosyolojisi alanında yerel yönetimlerin politika yapım süreçlerinde sosyolojik ihtiyaç analizi ve sosyal etki değerlendirmeleri yapmaktadır.",
+          "Gençlik politikaları alanında yaptığı çalışmalarla birlikte Başkent Gençlik Meclisi Kurucusu ve Gençlik Gelecek ve Toplum Derneği kurucu başkanlığını yapmaktadır. Kentsel politikada toplumsal katılım modelleri, gençlik katılım modelleri ve yerel yönetimler alanında uzmanlığı mevcuttur."
+        ]
+      },
+      "rumeysaCakir": {
+        "tagline": "Psikoloji · Gençlik katılımı · AB projeleri",
+        "paragraphs": [
+          "Rümeysa Çakır, Ankara Üniversitesi Psikoloji Bölümü lisans öğrencisidir. Hâlihazırda Gençlik Gelecek ve Toplum Derneği'nde Yönetim Kurulu Üyesi ve Genel Koordinatör olarak görev yapmakta; kurumsal yapılanma, gençlik katılımı, sosyal sorumluluk, Avrupa Birliği proje süreçleri ve dijital iletişim alanlarında çalışmalar yürütmektedir. Aynı zamanda gençlik çalışmalarında atölye ve organizasyon süreçlerinde kolaylaştırıcılık yaparak gençlerin aktif katılımını desteklemektedir.",
+          "Toplumsal cinsiyet eşitliği alanında Değişim Liderleri Derneği bünyesinde proje çalışmalarında yer almış; gençlere yönelik farkındalık ve kariyer kimliği geliştirme süreçlerine katkı sunmuştur. Ayrıca dezavantajlı bir bölgede gerçekleştirilen \"Dodo Kitap Okuyor\" projesinde görev almış ve Ankara Üniversitesi Psikanaliz Öğrenci Topluluğu'nda çeşitli yönetim rollerinde bulunmuştur.",
+          "Araştırma alanında TÜBİTAK 2209 projesinde araştırmacı olarak yer almakta; veri toplama ve analiz süreçlerinde aktif rol almaktadır. Bunun yanı sıra Anadolu Eğitim Kültür ve Bilim Vakfı bünyesinde dijital medya koordinatörü ve gençlik yönetim kurulu üyesi olarak çalışmalarını sürdürmektedir.",
+          "\"Bireyden Topluma: Dezenformasyon Karşısında Ana Akım Psikoloji Gerçekten Yeterli mi\" başlıklı yazısı, Bilim ve Ütopya dergisinde yayımlanmıştır.",
+          "İlgi alanları arasında psikoloji, gençlik katılımı, toplumsal cinsiyet eşitliği, psikoeğitim ve sosyal etki odaklı proje geliştirme yer almaktadır."
+        ]
+      },
+      "erenSoylu": {
+        "tagline": "Hukuk · Proje yazımı · Münazara",
+        "paragraphs": [
+          "Atılım Üniversitesi Hukuk Fakültesi 2. sınıf öğrencisidir. İletişim, ekip liderliği, proje döngüsü yönetimi (PCM) ve idari koordinasyon alanlarında yetkinlik sahibi olan Soylu; hibe ve proje yazımı, fikir üretme, kurum içi eğitim planlama ve ileri düzey argümantasyon konularında güçlü becerilere sahiptir.",
+          "Sivil toplum ve proje yönetimi alanlarında aktif olarak çalışmalar yürütmektedir. GEGET'te İdari Koordinatör ve Proje Yazarı olarak görev yapmakta olup; K-154, ESC30 ve K210 gibi önemli projelerin yazım süreçlerini yürütmektedir. Politika Platformu bünyesinde \"Erzincan/Kemaliye - Yerel Yönetim Katılımcılık Modelinin Geliştirilmesi\" ve \"Kemaliye Doğa ve Spor Akademisi\" projelerinin yazımında rol almıştır. Ayrıca Akran Projesi kapsamında Başkentin Gençlik Politikası Yazım Atölyeleri'ne katılımcı olarak dahil olmuş, Düşünen Gençler Topluluğu bünyesinde deprem yardım gönüllüsü olarak toplumsal dayanışmaya katkı sağlamıştır.",
+          "Eğitim hayatı boyunca üniversite içi organizasyonlarda da liderlik vasfıyla öne çıkan Eren Soylu, Atılımcı Hukukçular Topluluğu'nda Yönetim Kurulu Üyesi ve Kurum İçi Kapasite Geliştirme Eğitim Programı Koordinatörü olarak görev yapmaktadır. Aynı zamanda Atılımcı Münazara ve Çalıştay Topluluğu'nun Kurucu Başkanıdır ve münazara eğitmeni olarak deneyimlerini aktarmaktadır."
+        ]
+      },
+      "aysegulDincer": {
+        "tagline": "Mütercim-Tercümanlık · Dil ve iletişim",
+        "paragraphs": [
+          "Çankaya Üniversitesi İngilizce Mütercim ve Tercümanlık bölümü öğrencisi Ayşegül Dincer, akademik eğitimini dil ve iletişim becerileri üzerine geliştirmeye odaklanmaktadır. GEGET bünyesinde gönüllü olarak yer almakta; ekip içi işleyişi gözlemleyerek organizasyon süreçlerine uyum sağlama ve sorumluluk alma konularında kendini geliştirmektedir.",
+          "İngilizce dil yetkinliğini akademik ve günlük pratiklerle pekiştiren Ayşegül Dincer, farklı ortamlara hızlı adaptasyon sağlama becerisiyle öne çıkmaktadır. Öğrenmeye açık yapısı ve disiplinli yaklaşımıyla ekip çalışmalarında aktif rol almayı hedeflemektedir.",
+          "Profesyonel gelişimini sürdürülebilir şekilde ilerletmeyi amaçlarken dil becerilerini ve iletişim yetkinliklerini topluluk çalışmalarıyla destekleyerek kendini geliştirmeye devam etmektedir."
+        ]
+      },
+      "iremDemirci": {
+        "tagline": "Uluslararası İlişkiler · AB projeleri",
+        "paragraphs": [
+          "Ankara Hacı Bayram Veli Üniversitesi Uluslararası İlişkiler İngilizce programı mezunudur. Bir yıl boyunca öğrenci topluluğu yönetimini üstlenmiştir. İnsan kaynakları alanında staj yapmış, daha sonra da reklamcılık ve medya sektöründe çalışmıştır. GEGET'te ESC30 ve KA154 projelerinin yazımına katkıda bulunmuştur. \"Herkes Plan Sever\" eğitimini alarak proje yönetimi bilgisini genişletmiştir. Ekip koordinasyonu, faaliyet planlaması ve proje oluşturma süreçlerinde ekibine katkı sağlamaktadır.",
+          "Dernek içi güçlü yardımlaşma kültürü ve gençlik güçlendirme çalışmaları sayesinde hem ilgi alanlarına yönelik olarak hem de AB projelerine yönelik olarak kendisini geliştirmektedir. Siyaset felsefesi ve toplumsal cinsiyet eşitliği alanlarına ilgi duymakta olup ekibiyle birlikte iklim değişikliği, eko-feminizm ve katılımcı demokrasi alanlarında projeler üretmeyi hedeflemektedir."
+        ]
+      },
+      "fatmaNurKaragoz": {
+        "tagline": "Psikoloji · Saha deneyimi · Proje yazımı",
+        "paragraphs": [
+          "Psikoloji lisans öğrencisi olan Fatma Nur Karagöz, akademik eğitimini saha deneyimi ve sivil toplum çalışmalarıyla desteklemektedir. Şizofreni Dernekleri Federasyonu bünyesindeki Mavi At Kafe'de gerçekleştirdiği staj süresince psikotik bozukluk tanısı almış bireylerle etkileşimli süreçler yürüterek klinik gözlem ve iletişim becerileri kazanmıştır.",
+          "\"Dodo Kitap Okuyor\" gibi toplumsal projelerde aktif rol alan Karagöz, GEGET bünyesinde Sosyal Medya, Tasarım ve Proje ekiplerinde görev almaktadır. \"Herkes Plan Sever\" eğitiminin yanı sıra, KA154 ve ESC30 projelerinin yazım süreçlerine dahil olarak; ihtiyaç analizi, sistem oluşturma ve uygulanabilirlik analizleri noktalarında teknik yetkinlik geliştirmiştir. Psikolojik farkındalık ile proje disiplinini harmanlayan Karagöz, ekip çalışması ve organizasyon kabiliyetiyle sivil toplum alanındaki çalışmalarına devam etmektedir."
+        ]
+      },
+      "serifeNurKus": {
+        "tagline": "Psikoloji · Sosyal psikoloji · AB projeleri",
+        "paragraphs": [
+          "Şerife Nur Kuş, Ankara Üniversitesi Psikoloji Bölümü'nde lisans öğrenimini sürdürmektedir. Klinik alanda gerçekleştirdiği staj ile danışan gözlemi ve temel psikolojik değerlendirme süreçlerine dair uygulamalı deneyim edinmiştir. Sosyal psikoloji ve toplumsal cinsiyet çalışmalarıyla ilgilenmekte, bu alanlarda akademik ve saha deneyimini geliştirmektedir.",
+          "Gençlik ve Spor Bakanlığı ile çeşitli sivil toplum kuruluşlarında yürütülen etkinliklerde yer alarak ekip çalışması ve etkili iletişim becerilerini geliştirmiştir. Toplumsal projelerde aktif rol almış, projenin uygulama aşamasına katkı sağlamıştır. GEGET bünyesinde Avrupa Birliği proje ekibinde görev almaktadır. ESC30 ve KA154 projelerinde içerik geliştirme ve yazım süreçlerinde aktif rol üstlenmektedir.",
+          "\"Herkes Plan Sever\" eğitimine katılarak proje yazarlığı alanındaki bilgisini geliştirmiştir. Avrupa Birliği projelerine katılım sağlayarak proje döngüsü yönetimine dair deneyim kazanmıştır. Postmodern sanata ilgi duymakta; iklim değişikliği, sürdürülebilirlik ve toplumsal cinsiyet odaklı projeler geliştirmeyi hedeflemektedir."
+        ]
+      },
+      "yaseminGurlek": {
+        "tagline": "Psikoloji · Erasmus+ · Proje yazımı",
+        "paragraphs": [
+          "Ankara Üniversitesi Psikoloji Bölümü'nde öğrenim görmektedir. Erasmus+ projelerine katılım sağlayarak uluslararası deneyim kazanmış ve gençlik alanında projeler geliştirmeye ilgi duymaya başlamıştır. KA154 ve ESC30 projelerinin yazım aşamalarına katkıda bulunmuştur. \"Herkes Plan Sever\" eğitimi ile proje yazımında kendisini daha da geliştirmiştir. Proje süreçlerinde özellikle sistem oluşturma, ihtiyaç analizi ve uygulanabilirlik konularında ekibine katkı sağlamaktadır."
+        ]
+      },
+      "melisaKara": {
+        "tagline": "Uluslararası Ticaret · Gençlik katılımı",
+        "paragraphs": [
+          "Melisa Kara, Ankara Medipol Üniversitesi Uluslararası Ticaret ve Finansman İngilizce bölümü öğrencisidir. Başta Gençlik ve Spor Bakanlığı olmak üzere yerel gençlik meclisleri, gençlik dernekleri ve çeşitli gönüllülük organizasyonlarında görev almıştır. Uluslararası değişim ve hareketlilik projelerinin yazım süreçlerinde yer alarak gençlik güçlendirme çalışmalarına katkı sunmuştur. Halihazırda aktif bir gençlik katılımcısı olarak ulusal ve uluslararası proje ve programlarda yer almaktadır. Türk sanat müziğine ilgi duymakta ve icra etmekte olup, toplumsal cinsiyet eşitliği alanında çalışmalar yapmayı hedeflemektedir."
+        ]
+      },
+      "evrenSari": {
+        "tagline": "Felsefe · Psikoloji · Nörobilim",
+        "paragraphs": [
+          "Evren Sarı, İstanbul Üniversitesi Felsefe bölümünden mezun olmuş ve Ankara Üniversitesi Psikoloji bölümünde son dönem öğrenimini sürdüren; bilişsel psikoloji, sosyal psikoloji ve nörobilim alanlarında bilimsel çalışmalar yürüten bir lisans öğrencisidir.",
+          "Sivil toplum alanında aktif sorumluluklar üstlenen Sarı, Ankara Üniversitesi Çocuk İstismarını Önleme Topluluğu'nun Kurucu Yönetim Kurulu Üyesi ve GEGET'te Akademik Komisyon Başkanı olarak görev yapmaktadır. Ayrıca savaştan etkilenen dezavantajlı çocuklara yönelik projelerde gönüllü saha çalışanı olarak psikososyal destek süreçlerinde yer almıştır.",
+          "Orta düzeyde araştırma ve veri analizi (SPSS, R, MAXQDA) yetkinliklerini eğitim danışmanlığı ile birleştirerek yenilikçi \"Veriye Dayalı Nörobilişsel Takip Ekosistemi\" gibi projeler geliştirmektedir. Akademik ve sivil toplum faaliyetlerinin yanı sıra yayımlanmış bir psikolojik roman yazarı olması, nitelikli yatırımcı kimliği ve lisanslı spor geçmişiyle öne çıkan, farklı disiplinleri bir araya getiren çok yönlü bir profile sahiptir."
+        ]
+      },
+      "haticeRanaAktas": {
+        "tagline": "Psikoloji · Akademik etkinlik · Dergi tasarımı",
+        "paragraphs": [
+          "Ankara Üniversitesi'nde Psikoloji 3. sınıf öğrencisidir. GEGET bünyesinde Akademi Departmanında gönüllülük yapmaktadır. Altı Üstü Psikoloji'de 1 yıl Kaynak Geliştirmeci olarak görev yapmış, etkinlikler ve seminerler düzenlemiş ve bütçesel planlamaya katkıda bulunmuştur. Gençpsider'de Akademik Etkinlik ekibinde yer almış, psikoloji alanına dair çeşitli etkinlikler ve seminerler düzenlemiştir.",
+          "Halihazırda Ankara Genç İHH'da Proje Fon ekibinde gönüllü, Ankara Üniversitesi Psikoloji Öğrenci Topluluğu (AÜPOT) dergisi Psifoni'de Dergi Tasarımcısı, Altı Üstü Psikoloji'de Üniversite Temsilcisi olarak görev yapmaktadır.",
+          "A2 seviye Japonca ve C1 seviye İngilizce dillerini konuşabilmektedir. Bir sonraki hedef dili Arapça olan Rana, ortaöğretimde lisanslı kick boksla uğraşmıştır ve şimdilerde farklı spor alanlarını keşfetmektedir."
+        ]
+      },
+      "ayseRanaSelvitopu": {
+        "tagline": "İngilizce Öğretmenliği · Uluslararası İlişkiler · MUN",
+        "paragraphs": [
+          "Hacettepe Üniversitesi İngilizce Öğretmenliği ile Anadolu Üniversitesi Uluslararası İlişkiler bölümlerindeki akademik başarısını disiplinlerarası bir vizyonla birleştiren Ayşe Rana Selvitopu, GEGET bünyesinde Proje Departmanı Akademi Birimi'nde görev almaktadır.",
+          "Lise yıllarından itibaren ulusal ve uluslararası platformlarda düzenlenen MUN (Model Birleşmiş Milletler) ve gençlik çalıştaylarında üst düzey yöneticilik sorumlulukları üstlenerek, organizasyonel yönetim ve diplomasi alanlarında güçlü bir temel oluşturmuştur. Multidisipliner çalışma prensibini benimseyen Selvitopu; İngilizce, Fransızca ve Rusça dillerindeki ileri düzey yetkinliği ile projelerin küresel literatür taraması ve akademik yapılandırma süreçlerinde aktif rol oynamaktadır.",
+          "GEGET çatısı altında projelerin akademik tasarımı ve stratejik planlaması üzerine yoğunlaşan Selvitopu, sürdürülebilir kalkınma ve nitelikli eğitim hedefleri doğrultusunda sivil toplum literatürüne katkı sunmaya devam etmektedir."
+        ]
+      },
+      "munevverErturk": {
+        "tagline": "Eğitim · Proje yönetimi · Saha koordinasyonu",
+        "paragraphs": [
+          "Münevver Ertürk, Gaziantep Üniversitesi mezunu bir öğretmen olarak üniversite yıllarından bu yana sivil toplum alanında aktif çalışmalar yürütmektedir. Eğitim ve gençlik projelerinde koordinatörlük yaparak proje yönetimi, ekip koordinasyonu ve organizasyon süreçlerinde deneyim kazanmıştır. Meslek hayatında da sosyal sorumluluk bilinciyle hareket ederek toplumsal etki oluşturmayı amaçlamaktadır."
+        ]
+      },
+      "ahmetHakanKosar": {
+        "tagline": "Hukuk · Edebiyat · Diplomasi",
+        "paragraphs": [
+          "Ahmet Hakan Koşar, Atılım Üniversitesi Hukuk Fakültesinde öğrenim görmektedir. Topluluğumuzun Sosyal Sorumluluk Proje Departmanı üyesi olup edebiyat, kişi hakları, diplomasi ve basketbol gibi alanlarda kendini geliştirmektedir."
+        ]
+      },
+      "buseKaradavut": {
+        "tagline": "İşletme · Psikoloji · Risk yönetimi",
+        "paragraphs": [
+          "Başkent Üniversitesi İşletme bölümü 3. sınıf öğrencisidir. Topluluğumuzun Sosyal Sorumluluk Proje Departmanı üyesi olmakla beraber UCIM gönüllüsü olarak da toplumsal fayda çalışmalarında yer alıyor; psikoloji, proje yönetimi, risk yönetimi ve toplumsal farkındalık gibi alanlarda kendini geliştiriyor."
+        ]
+      },
+      "kubraDemir": {
+        "tagline": "Mütercim-Tercümanlık · Sosyal medya · Çeviri",
+        "paragraphs": [
+          "Çankaya Üniversitesi İngilizce Mütercim Tercümanlık bölümü öğrencisi Kübra Demir, akademik eğitimini sivil toplum ve gönüllülük çalışmalarıyla desteklemektedir. Sosyal medya koordinatörlüğü kapsamında içerik üretimi ve dijital iletişim süreçlerinde aktif rol almakta; ekip içi koordinasyon ve organizasyon becerilerini geliştirmektedir.",
+          "Üniversite bünyesindeki LÖSEV topluluğunda etkinliklere katılım sağlayarak sosyal sorumluluk çalışmalarına dahil olmaktadır. Aynı zamanda çeviri alanında çalışmalar yürüten Demir, dil becerilerini pratikte kullanmakta ve geliştirmektedir. Farklı ortamlara uyum sağlama, ekip çalışmasına yatkınlık ve sorumluluk alma konularında kendini geliştirmeye devam etmektedir."
+        ]
+      },
+      "sevdaRezaei": {
+        "tagline": "Hemşirelik · Sosyal medya · Tasarım",
+        "paragraphs": [
+          "Sevda Rezaei, Sağlık Bilimleri Üniversitesi Hemşirelik Bölümü 4. sınıf öğrencisidir. Akademik eğitimini, sivil toplum kuruluşları ve öğrenci topluluklarındaki aktif görevleriyle desteklemektedir. Üniversitenin okçuluk kulübünde yönetim kurulu üyesi olarak görev almakta olup, spor faaliyetlerinde elde ettiği derecelerle disiplinli ve hedef odaklı çalışma anlayışını pekiştirmiştir.",
+          "GEGET bünyesinde Sosyal Medya ve Tasarım Koordinatörü olarak görev yaparak dijital içerik üretimi, kurumsal iletişim ve ekip koordinasyonu alanlarında deneyim kazanmıştır. Ayrıca ÖHDER Derneği Uluslararası İlişkiler Komisyonu'nda koordinatör olarak görev almış; proje geliştirme, organizasyon yönetimi ve uluslararası iletişim süreçlerinde aktif sorumluluk üstlenmiştir.",
+          "İleri düzeyde İngilizce (C1) bilgisine sahip; güçlü organizasyon becerileri, ekip çalışmasına yatkınlığı ve sorumluluk bilinciyle öne çıkmaktadır. Hemşirelik mesleğinin gerektirdiği titizlik ve etik yaklaşımı, edindiği yönetsel ve sosyal deneyimlerle birleştirerek mesleki gelişimini sürdürmeyi hedeflemektedir."
+        ]
+      },
+      "seydanurKavak": {
+        "tagline": "Hukuk · Kurumsal kimlik · Tasarım yönetimi",
+        "paragraphs": [
+          "Anadolu Üniversitesi Hukuk Fakültesi mezunu Şeydanur Kavak, hukuk eğitimini sivil toplum ve gençlik oluşumlarındaki aktif rolleriyle desteklemiştir. Law Circle bünyesinde dijital iletişim ve içerik stratejileri üzerine deneyim kazanmış, ardından GEGET bünyesinde Tasarım Ekibi Koordinatörlüğü görevini üstlenerek ekip yönetimi ve kurumsal kimlik süreçlerini yönetmiştir.",
+          "Bu süreçlerin devamında Türkishe bünyesinde gönüllü olarak yer alarak toplumsal projelerdeki deneyimini daha da pekiştirmiştir. Dinamik yapılara hızlı adaptasyon, kriz yönetimi ve yüksek organizasyon kabiliyetiyle öne çıkan Kavak, hukuk disiplininin getirdiği titizliği yaratıcı süreçlerle harmanlamaktadır. Hukuki bakış açısını çözüm odaklı projelerle birleştirerek, profesyonel birikimini toplumsal faydaya dönüştürmeye devam etmeyi amaçlamaktadır."
+        ]
+      },
+      "aleynaAkgul": {
+        "tagline": "Uluslararası İlişkiler · Kültürel çalışmalar · Tasarım",
+        "paragraphs": [
+          "Ankara Hacı Bayram Veli Üniversitesi Uluslararası İlişkiler (İngilizce) mezunu Aleyna Akgül, akademik eğitimini kültürel çalışmalar ve sivil toplum faaliyetleriyle desteklemiştir. Japon ve Kore Kültürünü Araştırma Topluluğu'nda başkan yardımcılığı yaparak organizasyon ve ekip yönetiminde aktif rol almıştır.",
+          "Gönüllü Korece eğitmenliği ve blog yazarlığı ile kültürlerarası iletişim ve içerik üretimi alanlarında deneyim kazanmıştır. Dış Politika Enstitüsü stajı ile dış politika analizi konusunda pratik bilgi edinmiştir. Ayrıca GEGET bünyesinde tasarımcı olarak dijital içerik ve görsel iletişim süreçlerine katkı sağlamıştır.",
+          "Disiplinli, uyumlu ve çözüm odaklı yaklaşımıyla, uluslararası perspektifini kültürel çalışmalarla birleştirerek toplumsal fayda yaratmayı hedeflemektedir."
+        ]
+      },
+      "zeynepsuGundogan": {
+        "tagline": "Fransız Dili · Münazara · Çok dilli çeviri",
+        "paragraphs": [
+          "Zeynepsu Gündoğan, sivil toplum ve akademi odağında çok yönlü bir profil çizmektedir. Ankara Hacı Bayram Veli Üniversitesi'nde Fransız Dili ve Edebiyatı öğrencisi olan Zeynepsu, eş zamanlı olarak Münazara Topluluğu Başkanlığı görevini üstlenmiştir. Bu liderlik rolü, ona topluluk önünde kriz yönetimi ve stratejik düşünme gibi kritik beceriler kazandırmıştır.",
+          "GEGET bünyesinde Çeviri Birimi Koordinatörü olarak görev almaktadır. Türkçe, Fransızca, İngilizce ve Almanca dillerine hakimiyeti, dernek içindeki çok sesli yapıyı teknik düzeyde destekler. Gençlik politikaları ve uluslararası projelerdeki tecrübesi, çalışma disiplininin temelini oluşturur."
+        ]
+      },
+      "aybukeIdilFidan": {
+        "tagline": "Mütercim-Tercümanlık · Basın-Medya · Gönüllülük",
+        "paragraphs": [
+          "Çankaya Üniversitesi İngilizce Mütercim ve Tercümanlık Bölümü öğrencisi Aybüke İdil Fidan, dil becerilerini sivil toplum çalışmaları ve gönüllülük faaliyetleriyle birlikte geliştirmektedir. Üniversite bünyesindeki LÖSEV Topluluğu'nda Genel Koordinatör olarak etkinliklerin planlanması ve yürütülmesinde aktif rol üstlenerek organizasyon ve ekip yönetimi alanlarında deneyim kazanmıştır. Aynı zamanda Çeviri Topluluğu'nda İçerik ve Sosyal Medya Sorumlusu olarak dijital içerik üretimi, sosyal medya yönetimi ve iletişim süreçlerinde görev almaktadır.",
+          "GEGET bünyesinde Basın ve Medya Sorumlusu olarak görev yaparak Türkçe-İngilizce ve İngilizce-Türkçe yazılı çeviri çalışmalarına katkı sağlamıştır. ESC (European Solidarity Corps) kapsamında proje geliştirme ve yazım süreçlerinde yer almıştır. Bir yıl boyunca ilkokul düzeyindeki öğrencilere yönelik çevrim içi gönüllü İngilizce öğretmenliği yaparak farklı yaş gruplarıyla iletişim kurma ve eğitim verme deneyimi edinmiştir.",
+          "Farklı alanlardaki bu deneyimler doğrultusunda iletişim, koordinasyon, içerik üretimi ve çok dilli çalışma becerilerini geliştirmeye devam etmektedir."
+        ]
+      },
+      "ayyuceYilmaz": {
+        "tagline": "Psikolojik Danışmanlık · Editörlük · Klinik psikoloji",
+        "paragraphs": [
+          "Ayyüce Yılmaz, Kastamonu Üniversitesi Psikolojik Danışmanlık ve Rehberlik (PDR) bölümü 2. sınıf öğrencisidir. Eğitim sürecinde akademik araştırma, sunum hazırlama ve grup projelerinde aktif rol alarak içerik üretimi ve raporlama alanlarında deneyim kazanmıştır.",
+          "Sosyal sorumluluk kapsamında yürütülen projelere katılım sağlamış; ayrıca üniversite dergisinde editör olarak içerik üretimi ve metin düzenleme süreçlerinde görev almaktadır. Üniversite topluluğu faaliyetlerine düzenli katılım sağlayarak ekip çalışması ve organizasyon süreçlerinde deneyim edinmiştir.",
+          "Etkili iletişim, topluluk önünde konuşma, problem çözme ve analiz becerilerine sahip olup Microsoft Office programlarını kullanabilmektedir. Klinik psikoloji, psikolojik danışmanlık süreçleri ve nörobilim alanlarına ilgi duymakta ve bu alanlarda kendini geliştirmektedir. İngilizceyi orta seviyede kullanabilmektedir."
+        ]
+      }
     }
   },
   "contact": {

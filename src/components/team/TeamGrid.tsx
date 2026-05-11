@@ -1,14 +1,26 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
-import { teamStructure, type TeamDepartment, type TeamUnit } from '@/lib/team';
+import {
+  teamStructure,
+  type TeamDepartment,
+  type TeamPerson,
+  type TeamUnit,
+} from '@/lib/team';
 import Container from '@/components/ui/Container';
 import SectionHeader from '@/components/ui/SectionHeader';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import MemberTile from '@/components/team/MemberTile';
+import TeamMemberModal from '@/components/team/TeamMemberModal';
 
-function UnitBlock({ unit }: { unit: TeamUnit }) {
+function UnitBlock({
+  unit,
+  onSelect,
+}: {
+  unit: TeamUnit;
+  onSelect: (p: TeamPerson) => void;
+}) {
   const t = useTranslations('team');
   return (
     <div className="rounded-xl border border-neutral-200 bg-white/70 p-6 md:p-8">
@@ -20,16 +32,29 @@ function UnitBlock({ unit }: { unit: TeamUnit }) {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        <MemberTile person={unit.coordinator} size="md" highlight />
+        <MemberTile
+          person={unit.coordinator}
+          size="md"
+          highlight
+          onSelect={onSelect}
+        />
         {unit.members.map((m) => (
-          <MemberTile key={m.name} person={m} size="md" />
+          <MemberTile key={m.name} person={m} size="md" onSelect={onSelect} />
         ))}
       </div>
     </div>
   );
 }
 
-function DepartmentBlock({ dept, index }: { dept: TeamDepartment; index: number }) {
+function DepartmentBlock({
+  dept,
+  index,
+  onSelect,
+}: {
+  dept: TeamDepartment;
+  index: number;
+  onSelect: (p: TeamPerson) => void;
+}) {
   const t = useTranslations('team');
   return (
     <ScrollReveal delay={index * 0.05}>
@@ -51,16 +76,26 @@ function DepartmentBlock({ dept, index }: { dept: TeamDepartment; index: number 
           {dept.coordinator && (
             <div className="rounded-xl border border-neutral-200 bg-white/70 p-6 md:p-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                <MemberTile person={dept.coordinator} size="md" highlight />
+                <MemberTile
+                  person={dept.coordinator}
+                  size="md"
+                  highlight
+                  onSelect={onSelect}
+                />
                 {dept.members?.map((m) => (
-                  <MemberTile key={m.name} person={m} size="md" />
+                  <MemberTile
+                    key={m.name}
+                    person={m}
+                    size="md"
+                    onSelect={onSelect}
+                  />
                 ))}
               </div>
             </div>
           )}
 
           {dept.units?.map((unit) => (
-            <UnitBlock key={unit.slug} unit={unit} />
+            <UnitBlock key={unit.slug} unit={unit} onSelect={onSelect} />
           ))}
         </div>
       </section>
@@ -72,6 +107,10 @@ export default function TeamGrid() {
   const t = useTranslations('team');
   const { founder, generalCoordinators, administrativeCoordinators, departments } =
     teamStructure;
+
+  const [activePerson, setActivePerson] = useState<TeamPerson | null>(null);
+  const handleSelect = useCallback((p: TeamPerson) => setActivePerson(p), []);
+  const handleClose = useCallback(() => setActivePerson(null), []);
 
   return (
     <section className="py-20 bg-neutral-50">
@@ -85,7 +124,12 @@ export default function TeamGrid() {
         <ScrollReveal>
           <div className="mt-16 flex justify-center">
             <div className="w-full max-w-sm">
-              <MemberTile person={founder} size="lg" highlight />
+              <MemberTile
+                person={founder}
+                size="lg"
+                highlight
+                onSelect={handleSelect}
+              />
             </div>
           </div>
         </ScrollReveal>
@@ -116,7 +160,13 @@ export default function TeamGrid() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {generalCoordinators.map((person) => (
-                <MemberTile key={person.name} person={person} size="md" highlight />
+                <MemberTile
+                  key={person.name}
+                  person={person}
+                  size="md"
+                  highlight
+                  onSelect={handleSelect}
+                />
               ))}
             </div>
           </div>
@@ -133,7 +183,13 @@ export default function TeamGrid() {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {administrativeCoordinators.map((person) => (
-                  <MemberTile key={person.name} person={person} size="md" highlight />
+                  <MemberTile
+                    key={person.name}
+                    person={person}
+                    size="md"
+                    highlight
+                    onSelect={handleSelect}
+                  />
                 ))}
               </div>
             </div>
@@ -144,10 +200,17 @@ export default function TeamGrid() {
           <SectionHeader title={t('structure')} />
 
           {departments.map((dept, i) => (
-            <DepartmentBlock key={dept.slug} dept={dept} index={i} />
+            <DepartmentBlock
+              key={dept.slug}
+              dept={dept}
+              index={i}
+              onSelect={handleSelect}
+            />
           ))}
         </div>
       </Container>
+
+      <TeamMemberModal person={activePerson} onClose={handleClose} />
     </section>
   );
 }
