@@ -6,6 +6,7 @@
       "projects": "Projects",
       "gallery": "Gallery",
       "blog": "Blog",
+      "reports": "Reports",
       "team": "Our Team",
       "contact": "Contact"
     },
@@ -44,6 +45,10 @@
       "blog": {
         "title": "Blog — GEGET",
         "description": "Writing on youth policy, cities, and community."
+      },
+      "reports": {
+        "title": "Reports — GEGET",
+        "description": "Policy briefs, research and official documents published by GEGET."
       },
       "team": {
         "title": "Our Team — GEGET",
@@ -542,6 +547,27 @@
           "She is skilled in effective communication, public speaking, problem solving, and analysis, and is proficient in Microsoft Office. She is interested in clinical psychology, counselling processes, and neuroscience, and continues to develop herself in these areas. Her English is at an intermediate level."
         ]
       }
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "breadcrumb": "Home / Reports",
+    "heroDescription": "Policy briefs, field research and official documents published by GEGET.",
+    "overline": "ARCHIVE",
+    "subtitle": "Policy reports and documents",
+    "lead": "Sorted by year. Click any document to open it inline in your browser.",
+    "colNo": "№",
+    "colTitle": "DOCUMENT",
+    "colDate": "DATE",
+    "empty": {
+      "title": "No reports yet",
+      "description": "New reports will appear here as they are published."
+    },
+    "viewer": {
+      "back": "All reports",
+      "openNewTab": "Open in new tab",
+      "download": "Download",
+      "imageLabel": "Image"
     }
   },
   "contact": {

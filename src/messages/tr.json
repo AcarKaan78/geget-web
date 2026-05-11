@@ -6,6 +6,7 @@
       "projects": "Projeler",
       "gallery": "Galeri",
       "blog": "Blog",
+      "reports": "Raporlar",
       "team": "Ekibimiz",
       "contact": "İletişim"
     },
@@ -44,6 +45,10 @@
       "blog": {
         "title": "Blog — GEGET",
         "description": "Gençlik politikaları, şehirler ve topluma dair yazılarımız."
+      },
+      "reports": {
+        "title": "Raporlar — GEGET",
+        "description": "GEGET'in yayımladığı politika raporları, araştırmalar ve belgeler."
       },
       "team": {
         "title": "Ekibimiz — GEGET",
@@ -542,6 +547,27 @@
           "Etkili iletişim, topluluk önünde konuşma, problem çözme ve analiz becerilerine sahip olup Microsoft Office programlarını kullanabilmektedir. Klinik psikoloji, psikolojik danışmanlık süreçleri ve nörobilim alanlarına ilgi duymakta ve bu alanlarda kendini geliştirmektedir. İngilizceyi orta seviyede kullanabilmektedir."
         ]
       }
+    }
+  },
+  "reports": {
+    "title": "Raporlar",
+    "breadcrumb": "Ana Sayfa / Raporlar",
+    "heroDescription": "GEGET'in yayımladığı politika raporları, saha araştırmaları ve resmi belgeler.",
+    "overline": "ARŞİV",
+    "subtitle": "Politika raporları ve belgeler",
+    "lead": "Yıla göre sıralı; her belge tıklayarak doğrudan tarayıcıda açılır.",
+    "colNo": "№",
+    "colTitle": "BELGE",
+    "colDate": "TARİH",
+    "empty": {
+      "title": "Henüz rapor yok",
+      "description": "Yeni raporlar yayımlandığında bu sayfada listelenecek."
+    },
+    "viewer": {
+      "back": "Tüm raporlar",
+      "openNewTab": "Yeni sekmede aç",
+      "download": "İndir",
+      "imageLabel": "Görsel"
     }
   },
   "contact": {

@@ -10,6 +10,7 @@ export const NAV_LINKS: NavLink[] = [
   { labelKey: 'common.nav.projects', href: '/projeler' },
   { labelKey: 'common.nav.gallery', href: '/galeri' },
   { labelKey: 'common.nav.blog', href: '/blog' },
+  { labelKey: 'common.nav.reports', href: '/raporlar' },
   { labelKey: 'common.nav.team', href: '/ekibimiz' },
   { labelKey: 'common.nav.contact', href: '/iletisim' },
 ];
