@@ -144,6 +144,13 @@
       "title": "Gençlik Burada Olacak",
       "description": "Gençlerin geleceğini birlikte şekillendirmek için bize katılın.",
       "button": "İletişime Geç"
+    },
+    "instagram": {
+      "overline": "Sosyal Medya",
+      "title": "Instagram'da Biz",
+      "subtitle": "Etkinliklerimizden, projelerimizden ve sahadaki anlarımızdan en güncel kareler.",
+      "follow": "Bizi Takip Edin",
+      "viewPost": "Gönderiyi Gör"
     }
   },
   "about": {

@@ -8,7 +8,6 @@ import {
   ImageIcon,
   Upload,
   Trash2,
-  LogOut,
   Loader2,
   Check,
   AlertCircle,
@@ -121,36 +120,9 @@ export default function AdminDashboard({ initialReports }: AdminDashboardProps) 
     }
   }
 
-  async function handleLogout() {
-    await fetch('/api/admin/logout', { method: 'POST' });
-    router.replace('/admin/login');
-    router.refresh();
-  }
-
   return (
-    <div className="min-h-screen">
-      <header className="border-b border-neutral-200 bg-white">
-        <div className="mx-auto max-w-6xl px-6 py-5 flex items-center justify-between">
-          <div>
-            <span className="text-[11px] uppercase tracking-[0.28em] text-neutral-400 font-semibold">
-              Yönetim
-            </span>
-            <h1 className="font-heading text-2xl font-bold text-primary-900 mt-0.5">
-              GEGET Raporlar
-            </h1>
-          </div>
-          <button
-            onClick={handleLogout}
-            className="inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-neutral-600 hover:text-primary-700 hover:bg-neutral-100 transition-colors"
-          >
-            <LogOut className="h-4 w-4" />
-            Çıkış
-          </button>
-        </div>
-      </header>
-
-      <main className="mx-auto max-w-6xl px-6 py-10 space-y-10">
-        <section className="rounded-2xl bg-white ring-1 ring-neutral-200 shadow-sm overflow-hidden">
+    <div className="space-y-10">
+      <section className="rounded-2xl bg-white ring-1 ring-neutral-200 shadow-sm overflow-hidden">
           <div className="px-6 py-4 border-b border-neutral-200">
             <h2 className="font-heading text-lg font-semibold text-primary-900">
               Yeni Rapor Ekle
@@ -294,7 +266,6 @@ export default function AdminDashboard({ initialReports }: AdminDashboardProps) 
             </ul>
           )}
         </section>
-      </main>
     </div>
   );
 }

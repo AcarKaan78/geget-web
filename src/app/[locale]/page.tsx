@@ -5,6 +5,7 @@ import Mission from '@/components/home/Mission';
 import FocusAreas from '@/components/home/FocusAreas';
 import Stats from '@/components/home/Stats';
 import YouthCities from '@/components/home/YouthCities';
+import InstagramFeed from '@/components/home/InstagramFeed';
 import CTA from '@/components/home/CTA';
 
 export async function generateMetadata({
@@ -56,6 +57,7 @@ export default async function HomePage({
       <FocusAreas />
       <YouthCities />
       <Stats />
+      <InstagramFeed />
       <CTA />
     </>
   );

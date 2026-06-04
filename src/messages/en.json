@@ -144,6 +144,13 @@
       "title": "Youth Will Be Here",
       "description": "Join us in shaping the future of young people, together.",
       "button": "Get in Touch"
+    },
+    "instagram": {
+      "overline": "Social Media",
+      "title": "We're on Instagram",
+      "subtitle": "The latest moments from our events, projects, and work on the ground.",
+      "follow": "Follow Us",
+      "viewPost": "View Post"
     }
   },
   "about": {
