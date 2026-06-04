@@ -20,16 +20,16 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: `https://geget.org/${locale}`,
+      canonical: `https://www.geget.org/${locale}`,
       languages: {
-        tr: 'https://geget.org/tr',
-        en: 'https://geget.org/en',
+        tr: 'https://www.geget.org/tr',
+        en: 'https://www.geget.org/en',
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://geget.org/${locale}`,
+      url: `https://www.geget.org/${locale}`,
       siteName: 'GEGET',
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       type: 'website',

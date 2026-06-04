@@ -18,16 +18,16 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: `https://geget.org/${locale}/iletisim`,
+      canonical: `https://www.geget.org/${locale}/iletisim`,
       languages: {
-        tr: 'https://geget.org/tr/iletisim',
-        en: 'https://geget.org/en/iletisim',
+        tr: 'https://www.geget.org/tr/iletisim',
+        en: 'https://www.geget.org/en/iletisim',
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://geget.org/${locale}/iletisim`,
+      url: `https://www.geget.org/${locale}/iletisim`,
       siteName: 'GEGET',
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       type: 'website',

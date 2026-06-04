@@ -1,6 +1,6 @@
 import type { NavLink } from '@/types';
 
-export const SITE_URL = 'https://geget.org';
+export const SITE_URL = 'https://www.geget.org';
 
 export const WEB3FORMS_ACCESS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
 

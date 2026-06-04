@@ -19,16 +19,16 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: `https://geget.org/${locale}/hakkimizda`,
+      canonical: `https://www.geget.org/${locale}/hakkimizda`,
       languages: {
-        tr: 'https://geget.org/tr/hakkimizda',
-        en: 'https://geget.org/en/hakkimizda',
+        tr: 'https://www.geget.org/tr/hakkimizda',
+        en: 'https://www.geget.org/en/hakkimizda',
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://geget.org/${locale}/hakkimizda`,
+      url: `https://www.geget.org/${locale}/hakkimizda`,
       siteName: 'GEGET',
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       type: 'website',

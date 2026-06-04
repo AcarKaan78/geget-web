@@ -20,7 +20,7 @@ export async function generateMetadata({
   return {
     title: `${title} — GEGET`,
     alternates: {
-      canonical: `https://geget.org/${locale}/raporlar/${slug}`,
+      canonical: `https://www.geget.org/${locale}/raporlar/${slug}`,
     },
   };
 }

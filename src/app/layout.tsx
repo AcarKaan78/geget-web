@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://geget.org'),
+  metadataBase: new URL('https://www.geget.org'),
   title: 'GEGET — Gençlik Gelecek ve Toplum Derneği',
   description: 'Sürdürülebilir bir dünya için sürdürülebilir gençlik politikaları',
 };

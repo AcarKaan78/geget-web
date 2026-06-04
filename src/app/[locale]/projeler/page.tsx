@@ -17,16 +17,16 @@ export async function generateMetadata({
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: `https://geget.org/${locale}/projeler`,
+      canonical: `https://www.geget.org/${locale}/projeler`,
       languages: {
-        tr: 'https://geget.org/tr/projeler',
-        en: 'https://geget.org/en/projeler',
+        tr: 'https://www.geget.org/tr/projeler',
+        en: 'https://www.geget.org/en/projeler',
       },
     },
     openGraph: {
       title: t('title'),
       description: t('description'),
-      url: `https://geget.org/${locale}/projeler`,
+      url: `https://www.geget.org/${locale}/projeler`,
       siteName: 'GEGET',
       locale: locale === 'tr' ? 'tr_TR' : 'en_US',
       type: 'website',

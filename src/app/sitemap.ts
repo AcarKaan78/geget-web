@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { blogPosts } from '@/lib/blog';
 
-const BASE = 'https://geget.org';
+const BASE = 'https://www.geget.org';
 const LOCALES = ['tr', 'en'] as const;
 
 // Pages that exist for both locales.
