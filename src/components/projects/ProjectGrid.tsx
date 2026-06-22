@@ -3,11 +3,10 @@
 import React, { useState } from 'react';
 import { Diamond } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import { usePathname } from 'next/navigation';
 import Container from '@/components/ui/Container';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 import ProjectCard from '@/components/projects/ProjectCard';
-import { projects } from '@/lib/projects';
+import type { LocalizedProject } from '@/lib/projects/types';
 import { cn } from '@/lib/utils';
 
 type CategoryFilter = 'all' | 'policy' | 'education' | 'social' | 'technology';
@@ -20,9 +19,12 @@ const FILTER_OPTIONS: CategoryFilter[] = [
   'technology',
 ];
 
-export default function ProjectGrid() {
-  const pathname = usePathname();
-  const locale = pathname.split('/')[1] || 'tr';
+interface ProjectGridProps {
+  projects: LocalizedProject[];
+  locale: string;
+}
+
+export default function ProjectGrid({ projects, locale }: ProjectGridProps) {
   const t = useTranslations('projects');
   const [activeFilter, setActiveFilter] = useState<CategoryFilter>('all');
 

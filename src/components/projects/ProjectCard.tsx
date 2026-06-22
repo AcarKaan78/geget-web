@@ -2,16 +2,16 @@
 
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import type { Project } from '@/types';
+import type { LocalizedProject } from '@/lib/projects/types';
 import { formatDate } from '@/lib/utils';
 import { cn } from '@/lib/utils';
 
 interface ProjectCardProps {
-  project: Project;
+  project: LocalizedProject;
   locale: string;
 }
 
-const statusStyles: Record<Project['status'], string> = {
+const statusStyles: Record<LocalizedProject['status'], string> = {
   active: 'bg-green-100 text-green-700',
   completed: 'bg-blue-100 text-blue-700',
   planned: 'bg-yellow-100 text-yellow-700',
@@ -19,9 +19,6 @@ const statusStyles: Record<Project['status'], string> = {
 
 export default function ProjectCard({ project, locale }: ProjectCardProps) {
   const t = useTranslations('projects');
-
-  const titlePath = project.titleKey.replace('projects.', '');
-  const descriptionPath = project.descriptionKey.replace('projects.', '');
 
   return (
     <div
@@ -53,11 +50,11 @@ export default function ProjectCard({ project, locale }: ProjectCardProps) {
       {/* Body */}
       <div className="p-6">
         <h3 className="font-heading font-semibold text-lg text-neutral-900">
-          {t(titlePath)}
+          {project.title}
         </h3>
 
         <p className="text-neutral-500 text-sm mt-2 font-body line-clamp-3">
-          {t(descriptionPath)}
+          {project.description}
         </p>
 
         <p className="text-neutral-400 text-xs mt-4 font-body">

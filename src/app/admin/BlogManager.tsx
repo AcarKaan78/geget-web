@@ -13,6 +13,7 @@ import {
   Pencil,
   X as XIcon,
   Upload,
+  ArrowLeft,
 } from 'lucide-react';
 import type {
   BlogPostEntry,
@@ -137,11 +138,6 @@ export default function BlogManager({ initialPosts }: BlogManagerProps) {
 
       {creating && (
         <section className="rounded-2xl bg-white ring-1 ring-neutral-200 shadow-sm overflow-hidden">
-          <div className="px-6 py-4 border-b border-neutral-200">
-            <h3 className="font-heading text-base font-semibold text-primary-900">
-              Yeni Yazı Ekle
-            </h3>
-          </div>
           <PostForm
             mode="create"
             onDone={(manifest) => {
@@ -175,11 +171,6 @@ export default function BlogManager({ initialPosts }: BlogManagerProps) {
               <li key={post.id}>
                 {editingId === post.id ? (
                   <div className="bg-primary-50/40">
-                    <div className="px-6 py-3 border-b border-primary-100">
-                      <span className="text-xs font-semibold text-primary-700">
-                        Düzenleniyor: {post.tr.title}
-                      </span>
-                    </div>
                     <PostForm
                       mode="edit"
                       initial={post}
@@ -366,8 +357,23 @@ function PostForm({ mode, initial, onDone, onCancel, onError }: PostFormProps) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="px-6 py-6 space-y-6">
-      {/* Turkish (required) */}
+    <div>
+      <div className="px-6 py-4 border-b border-neutral-200 flex items-center gap-3">
+        <button
+          type="button"
+          onClick={onCancel}
+          className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-semibold text-neutral-600 hover:bg-neutral-100 transition-colors"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Geri
+        </button>
+        <h3 className="font-heading text-base font-semibold text-primary-900">
+          {mode === 'create' ? 'Yeni Yazı Ekle' : `Düzenle: ${initial?.tr.title}`}
+        </h3>
+      </div>
+
+      <form onSubmit={handleSubmit} className="px-6 py-6 space-y-6">
+        {/* Turkish (required) */}
       <div className="space-y-4">
         <h4 className="text-sm font-semibold text-primary-800">Türkçe *</h4>
         <label className="block">
@@ -566,6 +572,7 @@ function PostForm({ mode, initial, onDone, onCancel, onError }: PostFormProps) {
           İptal
         </button>
       </div>
-    </form>
+      </form>
+    </div>
   );
 }

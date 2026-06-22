@@ -4,6 +4,10 @@ import { useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
 import DiamondPattern from '@/components/ui/DiamondPattern';
 import ProjectGrid from '@/components/projects/ProjectGrid';
+import { readManifest } from '@/lib/projects/storage';
+import { localizeProject } from '@/lib/projects/types';
+
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -59,10 +63,13 @@ export default async function ProjectsPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const manifest = await readManifest();
+  const projects = manifest.projects.map((p) => localizeProject(p, locale));
+
   return (
     <>
       <PageHero />
-      <ProjectGrid />
+      <ProjectGrid projects={projects} locale={locale} />
     </>
   );
 }
