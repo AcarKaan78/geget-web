@@ -299,6 +299,7 @@
     "subtitle": "Writing on youth, policy, and community.",
     "readMore": "Read more",
     "backToList": "Back to all posts",
+    "viewOnInstagram": "View on Instagram",
     "minuteRead": "min read",
     "postsLabel": "Latest Posts",
     "categories": {
@@ -307,6 +308,18 @@
       "community": "Community"
     },
     "posts": {
+      "ecominds-surdurulebilir-dunya-icin-inovasyon": {
+        "title": "Innovation for a Sustainable World: ECOMINDS",
+        "excerpt": "ECOMINDS, our app that draws attention to sustainability using new-world technologies, is live! Focused on the climate crisis, environmental issues, and intergenerational justice, EcoMinds turns environmental awareness into a fun experience — complete tasks and win a prize.",
+        "content": [
+          "🌱 ECOMINDS, our app designed to draw attention to sustainability using new-world technologies, is now live! Focusing on critical topics such as the climate crisis, environmental problems, and intergenerational justice, the app offers an innovative digital space for building sustainable communities.",
+          "By downloading the app, you can raise your awareness about sustainability, learn through interactive content, and earn rewards by completing the set tasks. With EcoMinds, which turns environmental awareness into a fun experience, you can both test yourself and seize the chance to win a prize!",
+          "📅 Application Deadline: 25 June 2026",
+          "🎁 Prize: Two tickets to a Mabel Matiz concert for the winner!",
+          "How to take part: 1) Open the EcoMinds app and generate your score. 2) Take a screenshot of your result and share it in your story. 3) Don't forget to tag us: @damasistem and @genclikgelecekvetoplumdernegi. 4) Get your chance to enter the prize draw!",
+          "🌍 Take nature-friendly steps and join now for your chance to win!"
+        ]
+      },
       "genc-dostu-sehirler-neden-onemli": {
         "title": "Why Do Youth-Friendly Cities Matter?",
         "excerpt": "Youth participation in city life is decisive not only for young people but for the future of society as a whole. So what actually makes a city 'youth-friendly'?",

@@ -4,9 +4,19 @@ export interface BlogPost {
   readingMinutes: number;
   categoryKey: 'policy' | 'city' | 'community';
   coverImage: string;
+  instagramUrl?: string;
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: 'ecominds-surdurulebilir-dunya-icin-inovasyon',
+    date: '2026-06-18',
+    readingMinutes: 3,
+    categoryKey: 'community',
+    coverImage: '/images/galeri/ecominds-cekilis.jpg',
+    instagramUrl:
+      'https://www.instagram.com/p/DZSNQMJKCQ-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+  },
   {
     slug: 'genc-dostu-sehirler-neden-onemli',
     date: '2026-04-10',

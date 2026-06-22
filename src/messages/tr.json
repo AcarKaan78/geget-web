@@ -299,6 +299,7 @@
     "subtitle": "Gençlik, politika ve topluma dair yazılar.",
     "readMore": "Devamını oku",
     "backToList": "Tüm yazılara dön",
+    "viewOnInstagram": "Instagram'da Gör",
     "minuteRead": "dk okuma",
     "postsLabel": "Son Yazılar",
     "categories": {
@@ -307,6 +308,18 @@
       "community": "Topluluk"
     },
     "posts": {
+      "ecominds-surdurulebilir-dunya-icin-inovasyon": {
+        "title": "Sürdürülebilir Dünya İçin İnovasyon: ECOMINDS",
+        "excerpt": "Yeni dünya teknolojilerini kullanarak sürdürülebilirliğe dikkat çekmeyi amaçladığımız ECOMINDS uygulamamız yayında! İklim krizi, çevresel sorunlar ve kuşaklar arası adalete odaklanan EcoMinds ile çevre bilincini eğlenceli bir deneyime dönüştür, görevleri tamamla ve ödül kazan.",
+        "content": [
+          "🌱 Yeni dünya teknolojilerini kullanarak sürdürülebilirliğe dikkat çekmeyi amaçladığımız ECOMINDS uygulamamız yayında! İklim krizi, çevresel sorunlar ve kuşaklar arası adalet gibi kritik başlıklara odaklanan bu uygulama; sürdürülebilir toplumların inşası için yenilikçi bir dijital alan sunmaktadır.",
+          "Sen de uygulamayı indirerek sürdürülebilirlik konusunda farkındalığını artırabilir, etkileşimli içeriklerle öğrenebilir ve belirlenen görevleri tamamlayarak ödül kazanabilirsin. Çevre bilincini eğlenceli bir deneyime dönüştüren EcoMinds ile hem kendini test et hem de ödül kazanma fırsatını yakala!",
+          "📅 Son Başvuru Tarihi: 25 Haziran 2026",
+          "🎁 Ödül: Kazanana 2 kişilik Mabel Matiz konser bileti!",
+          "Katılım için: 1) EcoMinds uygulamasını aç ve skorunu oluştur. 2) Sonucunun ekran fotoğrafını al ve hikâyende paylaş. 3) Bizi etiketlemeyi unutma: @damasistem ve @genclikgelecekvetoplumdernegi. 4) Çekilişe katılma şansını yakala!",
+          "🌍 Doğaya duyarlı adımlar atarken ödülünü kazanmak için hemen katıl!"
+        ]
+      },
       "genc-dostu-sehirler-neden-onemli": {
         "title": "Genç Dostu Şehirler Neden Önemli?",
         "excerpt": "Gençlerin şehir yaşamına katılımı, sadece onların değil; bütün bir toplumun geleceği için belirleyicidir. Peki bir şehri gerçekten 'genç dostu' yapan nedir?",

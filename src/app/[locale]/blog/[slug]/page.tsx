@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Instagram } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Container from '@/components/ui/Container';
 import DiamondPattern from '@/components/ui/DiamondPattern';
@@ -120,6 +120,18 @@ export default async function BlogPostPage({
               <p key={index}>{paragraph}</p>
             ))}
           </article>
+
+          {post.instagramUrl && (
+            <a
+              href={post.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-10 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary-600 to-primary-700 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+            >
+              <Instagram className="h-4 w-4" />
+              <span>{t('viewOnInstagram')}</span>
+            </a>
+          )}
 
           <div className="mt-12 pt-8 border-t border-neutral-200">
             <Link
