@@ -4,6 +4,8 @@ export interface BlogPost {
   readingMinutes: number;
   categoryKey: 'policy' | 'city' | 'community';
   coverImage: string;
+  /** Aspect ratio for the cover image. Defaults to 'video' (16:9). Use 'square' for posters/graphics that should not be cropped. */
+  coverAspect?: 'video' | 'square';
   instagramUrl?: string;
 }
 
@@ -14,6 +16,7 @@ export const blogPosts: BlogPost[] = [
     readingMinutes: 3,
     categoryKey: 'community',
     coverImage: '/images/galeri/ecominds-cekilis.jpg',
+    coverAspect: 'square',
     instagramUrl:
       'https://www.instagram.com/p/DZSNQMJKCQ-/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
   },

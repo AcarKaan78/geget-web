@@ -104,13 +104,20 @@ export default async function BlogPostPage({
 
       <section className="py-16 bg-white">
         <Container className="max-w-3xl">
-          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden border border-neutral-200 shadow-sm">
+          <div
+            className={`relative w-full overflow-hidden rounded-xl border border-neutral-200 shadow-sm ${
+              post.coverAspect === 'square'
+                ? 'mx-auto max-w-xl aspect-square bg-neutral-50'
+                : 'aspect-[16/9]'
+            }`}
+          >
             <Image
               src={post.coverImage}
               alt={title}
               fill
-              sizes="(max-width: 768px) 100vw, 768px"
+              sizes={post.coverAspect === 'square' ? '(max-width: 640px) 100vw, 576px' : '(max-width: 768px) 100vw, 768px'}
               className="object-cover"
+              quality={90}
               priority
             />
           </div>
