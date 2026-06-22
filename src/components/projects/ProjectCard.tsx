@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import type { LocalizedProject } from '@/lib/projects/types';
 import { formatDate } from '@/lib/utils';
@@ -29,8 +30,17 @@ export default function ProjectCard({ project, locale }: ProjectCardProps) {
         'overflow-hidden'
       )}
     >
-      {/* Top gradient placeholder area */}
+      {/* Cover image, or gradient placeholder when none */}
       <div className="h-48 bg-gradient-to-br from-primary-100 to-primary-200 rounded-t-xl relative overflow-hidden">
+        {project.coverImage && (
+          <Image
+            src={project.coverImage}
+            alt={project.title}
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-cover"
+          />
+        )}
         {/* Category badge */}
         <span className="absolute top-4 left-4 rounded-full bg-white/90 text-primary-600 text-xs font-semibold px-3 py-1">
           {t(`filters.${project.category}`)}

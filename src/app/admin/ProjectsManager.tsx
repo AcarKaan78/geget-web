@@ -2,6 +2,7 @@
 
 import React, { useState, useTransition } from 'react';
 import { useRouter } from 'next/navigation';
+import { upload } from '@vercel/blob/client';
 import {
   Plus,
   Trash2,
@@ -11,6 +12,7 @@ import {
   Pencil,
   X as XIcon,
   ArrowLeft,
+  Upload,
 } from 'lucide-react';
 import type {
   ProjectEntry,
@@ -192,6 +194,16 @@ export default function ProjectsManager({
                   </div>
                 ) : (
                   <div className="px-6 py-4 flex items-center gap-4 hover:bg-neutral-50 transition-colors">
+                    {project.coverImage ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={project.coverImage}
+                        alt=""
+                        className="h-12 w-16 rounded-md object-cover bg-neutral-100 shrink-0"
+                      />
+                    ) : (
+                      <span className="h-12 w-16 rounded-md bg-gradient-to-br from-primary-100 to-primary-200 shrink-0" />
+                    )}
                     <div className="flex-1 min-w-0">
                       <span className="block font-medium text-primary-900 truncate">
                         {project.tr.title}
@@ -263,6 +275,8 @@ function ProjectForm({
     initial?.status ?? 'active',
   );
   const [date, setDate] = useState(initial?.date ?? thisMonth());
+  const [coverImage, setCoverImage] = useState(initial?.coverImage ?? '');
+  const [coverFile, setCoverFile] = useState<File | null>(null);
 
   const [trTitle, setTrTitle] = useState(initial?.tr.title ?? '');
   const [trDescription, setTrDescription] = useState(
@@ -283,11 +297,27 @@ function ProjectForm({
     }
     setBusy(true);
     try {
+      let finalCover = coverImage;
+      if (coverFile) {
+        const blob = await upload(`projects/${coverFile.name}`, coverFile, {
+          access: 'public',
+          handleUploadUrl: '/api/admin/upload',
+          contentType: coverFile.type,
+        });
+        finalCover = blob.url;
+      }
+      if (!finalCover) {
+        onError('Kapak görseli gerekli.');
+        setBusy(false);
+        return;
+      }
+
       const enFilled = enTitle.trim().length > 0;
       const payload = {
         category,
         status: projectStatus,
         date,
+        coverImage: finalCover,
         tr: { title: trTitle.trim(), description: trDescription.trim() },
         en: enFilled
           ? { title: enTitle.trim(), description: enDescription.trim() }
@@ -395,6 +425,39 @@ function ProjectForm({
         {/* Meta */}
         <div className="space-y-4 border-t border-neutral-100 pt-5">
           <h4 className="text-sm font-semibold text-primary-800">Ayarlar</h4>
+
+          <label className="block">
+            <span className={LABEL}>Kapak Görseli {mode === 'create' && '*'}</span>
+            <div className="flex items-center gap-4">
+              {coverImage && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src={coverImage}
+                  alt=""
+                  className="h-16 w-24 rounded-md object-cover bg-neutral-100 shrink-0"
+                />
+              )}
+              <div className="relative flex-1 rounded-lg border-2 border-dashed border-neutral-300 hover:border-primary-400 transition-colors bg-neutral-50/60">
+                <input
+                  type="file"
+                  accept="image/jpeg,image/png,image/webp"
+                  onChange={(e) => setCoverFile(e.target.files?.[0] ?? null)}
+                  className="absolute inset-0 opacity-0 cursor-pointer"
+                />
+                <div className="flex items-center gap-3 px-4 py-3">
+                  <Upload className="h-5 w-5 text-primary-600" />
+                  <span className="text-sm text-neutral-600 truncate">
+                    {coverFile
+                      ? coverFile.name
+                      : coverImage
+                        ? 'Değiştirmek için seç…'
+                        : 'JPG, PNG veya WEBP seç…'}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </label>
+
           <div className="grid sm:grid-cols-3 gap-4">
             <label className="block">
               <span className={LABEL}>Kategori</span>

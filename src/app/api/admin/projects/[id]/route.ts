@@ -25,6 +25,7 @@ interface PatchBody {
   category?: string;
   status?: string;
   date?: string;
+  coverImage?: string;
   tr?: Partial<LocalizedProjectContent>;
   en?: Partial<LocalizedProjectContent> | null;
 }
@@ -74,6 +75,9 @@ export async function PATCH(
   }
   if (typeof body.date === 'string' && /^\d{4}-\d{2}$/.test(body.date)) {
     patch.date = body.date;
+  }
+  if (typeof body.coverImage === 'string' && body.coverImage.trim()) {
+    patch.coverImage = body.coverImage.trim();
   }
   if (body.tr !== undefined) {
     const tr = normalize(body.tr);

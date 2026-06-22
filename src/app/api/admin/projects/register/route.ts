@@ -23,6 +23,7 @@ interface RegisterBody {
   category?: string;
   status?: string;
   date?: string;
+  coverImage?: string;
   tr?: Partial<LocalizedProjectContent>;
   en?: Partial<LocalizedProjectContent>;
 }
@@ -66,6 +67,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Geçersiz durum.' }, { status: 400 });
   }
 
+  if (!body.coverImage || typeof body.coverImage !== 'string') {
+    return NextResponse.json({ error: 'Kapak görseli gerekli.' }, { status: 400 });
+  }
+
   const date =
     typeof body.date === 'string' && /^\d{4}-\d{2}$/.test(body.date)
       ? body.date
@@ -77,6 +82,7 @@ export async function POST(req: NextRequest) {
     category,
     status,
     date,
+    coverImage: body.coverImage,
     tr,
     en,
     createdAt: now,

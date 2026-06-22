@@ -1,4 +1,4 @@
-import { list, put } from '@vercel/blob';
+import { list, put, del } from '@vercel/blob';
 import type { ProjectsManifest, ProjectEntry } from './types';
 import { buildSeedManifest } from './seed';
 
@@ -6,6 +6,10 @@ const MANIFEST_PATH = 'projects/manifest.json';
 
 function hasBlobToken(): boolean {
   return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
+}
+
+function isBlobUrl(url: string): boolean {
+  return url.includes('blob.vercel-storage.com');
 }
 
 async function findManifestUrl(): Promise<string | null> {
@@ -65,7 +69,7 @@ export async function addProject(
 }
 
 export type ProjectPatch = Partial<
-  Pick<ProjectEntry, 'category' | 'status' | 'date' | 'tr' | 'en'>
+  Pick<ProjectEntry, 'category' | 'status' | 'date' | 'coverImage' | 'tr' | 'en'>
 >;
 
 export async function updateProject(
@@ -92,7 +96,15 @@ export async function deleteProject(
   id: string,
 ): Promise<ProjectsManifest | null> {
   const current = await readManifest();
-  if (!current.projects.some((p) => p.id === id)) return null;
+  const entry = current.projects.find((p) => p.id === id);
+  if (!entry) return null;
+  if (entry.coverImage && isBlobUrl(entry.coverImage)) {
+    try {
+      await del(entry.coverImage);
+    } catch {
+      // cover already gone; continue with manifest cleanup
+    }
+  }
   const next: ProjectsManifest = {
     version: 1,
     projects: current.projects.filter((p) => p.id !== id),

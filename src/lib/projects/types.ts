@@ -11,6 +11,7 @@ export interface ProjectEntry {
   category: ProjectCategory;
   status: ProjectStatus;
   date: string; // YYYY-MM
+  coverImage?: string;
   tr: LocalizedProjectContent;
   en?: LocalizedProjectContent;
   createdAt: string;
@@ -33,6 +34,7 @@ export interface LocalizedProject {
   category: ProjectCategory;
   status: ProjectStatus;
   date: string;
+  coverImage?: string;
   title: string;
   description: string;
 }
@@ -50,6 +52,7 @@ export function localizeProject(
     category: entry.category,
     status: entry.status,
     date: entry.date,
+    coverImage: entry.coverImage,
     title: loc.title,
     description: loc.description,
   };
