@@ -5,19 +5,17 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 import { useTranslations } from 'next-intl';
-import type { BlogPost } from '@/lib/blog';
+import type { LocalizedPost } from '@/lib/blog/types';
 import { formatDate, cn } from '@/lib/utils';
 
 interface BlogCardProps {
-  post: BlogPost;
+  post: LocalizedPost;
   locale: string;
 }
 
 export default function BlogCard({ post, locale }: BlogCardProps) {
   const t = useTranslations('blog');
 
-  const title = t(`posts.${post.slug}.title`);
-  const excerpt = t(`posts.${post.slug}.excerpt`);
   const category = t(`categories.${post.categoryKey}`);
 
   return (
@@ -33,7 +31,7 @@ export default function BlogCard({ post, locale }: BlogCardProps) {
       <div className="relative h-48 w-full overflow-hidden">
         <Image
           src={post.coverImage}
-          alt={title}
+          alt={post.title}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -53,11 +51,11 @@ export default function BlogCard({ post, locale }: BlogCardProps) {
         </div>
 
         <h3 className="font-heading font-semibold text-lg text-neutral-900 mt-3 group-hover:text-primary-700 transition-colors">
-          {title}
+          {post.title}
         </h3>
 
         <p className="text-neutral-500 text-sm mt-2 font-body line-clamp-3">
-          {excerpt}
+          {post.excerpt}
         </p>
 
         <div className="mt-4 inline-flex items-center gap-1 text-primary-600 text-sm font-semibold">

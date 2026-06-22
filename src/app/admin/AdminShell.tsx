@@ -2,20 +2,27 @@
 
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { LogOut, FileText, Instagram } from 'lucide-react';
+import { LogOut, FileText, Instagram, Newspaper } from 'lucide-react';
 import AdminDashboard from '@/app/admin/AdminDashboard';
 import InstagramManager from '@/app/admin/InstagramManager';
+import BlogManager from '@/app/admin/BlogManager';
 import type { ReportEntry } from '@/lib/reports/types';
 import type { InstagramPost } from '@/lib/instagram/types';
+import type { BlogPostEntry } from '@/lib/blog/types';
 
 interface AdminShellProps {
   initialReports: ReportEntry[];
   initialPosts: InstagramPost[];
+  initialBlogPosts: BlogPostEntry[];
 }
 
-type Tab = 'reports' | 'instagram';
+type Tab = 'reports' | 'instagram' | 'blog';
 
-export default function AdminShell({ initialReports, initialPosts }: AdminShellProps) {
+export default function AdminShell({
+  initialReports,
+  initialPosts,
+  initialBlogPosts,
+}: AdminShellProps) {
   const router = useRouter();
   const [tab, setTab] = useState<Tab>('reports');
 
@@ -55,6 +62,12 @@ export default function AdminShell({ initialReports, initialPosts }: AdminShellP
               label="Raporlar"
             />
             <TabButton
+              active={tab === 'blog'}
+              onClick={() => setTab('blog')}
+              icon={<Newspaper className="h-4 w-4" />}
+              label="Blog"
+            />
+            <TabButton
               active={tab === 'instagram'}
               onClick={() => setTab('instagram')}
               icon={<Instagram className="h-4 w-4" />}
@@ -65,11 +78,9 @@ export default function AdminShell({ initialReports, initialPosts }: AdminShellP
       </header>
 
       <main className="mx-auto max-w-6xl px-6 py-10">
-        {tab === 'reports' ? (
-          <AdminDashboard initialReports={initialReports} />
-        ) : (
-          <InstagramManager initialPosts={initialPosts} />
-        )}
+        {tab === 'reports' && <AdminDashboard initialReports={initialReports} />}
+        {tab === 'blog' && <BlogManager initialPosts={initialBlogPosts} />}
+        {tab === 'instagram' && <InstagramManager initialPosts={initialPosts} />}
       </main>
     </div>
   );

@@ -6,15 +6,11 @@ import { ArrowLeft, Instagram } from 'lucide-react';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Container from '@/components/ui/Container';
 import DiamondPattern from '@/components/ui/DiamondPattern';
-import { blogPosts, getPost } from '@/lib/blog';
+import { getPostEntry } from '@/lib/blog/storage';
+import { localizePost } from '@/lib/blog/types';
 import { formatDate } from '@/lib/utils';
-import { routing } from '@/../../i18n/routing';
 
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    blogPosts.map((post) => ({ locale, slug: post.slug }))
-  );
-}
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -22,12 +18,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const post = getPost(slug);
-  if (!post) return {};
+  const entry = await getPostEntry(slug);
+  if (!entry) return {};
 
-  const t = await getTranslations({ locale, namespace: 'blog' });
-  const title = t(`posts.${slug}.title`);
-  const description = t(`posts.${slug}.excerpt`);
+  const post = localizePost(entry, locale);
+  const title = post.title;
+  const description = post.excerpt;
 
   return {
     title: `${title} — GEGET`,
@@ -59,14 +55,12 @@ export default async function BlogPostPage({
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  const post = getPost(slug);
-  if (!post) notFound();
+  const entry = await getPostEntry(slug);
+  if (!entry) notFound();
 
+  const post = localizePost(entry, locale);
   const t = await getTranslations({ locale, namespace: 'blog' });
-  const title = t(`posts.${slug}.title`);
-  const excerpt = t(`posts.${slug}.excerpt`);
   const category = t(`categories.${post.categoryKey}`);
-  const content = t.raw(`posts.${slug}.content`) as string[];
 
   return (
     <>
@@ -93,11 +87,11 @@ export default async function BlogPostPage({
           </div>
 
           <h1 className="text-3xl md:text-5xl font-heading font-bold text-white mt-4 leading-tight">
-            {title}
+            {post.title}
           </h1>
 
           <p className="text-primary-100 text-lg mt-6 leading-relaxed">
-            {excerpt}
+            {post.excerpt}
           </p>
         </Container>
       </section>
@@ -113,7 +107,7 @@ export default async function BlogPostPage({
           >
             <Image
               src={post.coverImage}
-              alt={title}
+              alt={post.title}
               fill
               sizes={post.coverAspect === 'square' ? '(max-width: 640px) 100vw, 576px' : '(max-width: 768px) 100vw, 768px'}
               className="object-cover"
@@ -123,7 +117,7 @@ export default async function BlogPostPage({
           </div>
 
           <article className="mt-10 space-y-6 text-neutral-700 font-body text-lg leading-relaxed">
-            {content.map((paragraph, index) => (
+            {post.content.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
           </article>

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { blogPosts } from '@/lib/blog';
+import { readManifest } from '@/lib/blog/storage';
 
 const BASE = 'https://www.geget.org';
 const LOCALES = ['tr', 'en'] as const;
@@ -25,7 +25,7 @@ function languageAlternates(path: string) {
   };
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
 
   for (const path of STATIC_PATHS) {
@@ -39,12 +39,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  for (const post of blogPosts) {
+  const { posts } = await readManifest();
+  for (const post of posts) {
     const path = `/blog/${post.slug}`;
     for (const locale of LOCALES) {
       entries.push({
         url: `${BASE}/${locale}${path}`,
-        lastModified: new Date(post.date),
+        lastModified: new Date(post.updatedAt || post.date),
         changeFrequency: 'yearly',
         priority: 0.6,
         alternates: languageAlternates(path),

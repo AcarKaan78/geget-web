@@ -4,6 +4,10 @@ import { useTranslations } from 'next-intl';
 import Container from '@/components/ui/Container';
 import DiamondPattern from '@/components/ui/DiamondPattern';
 import BlogGrid from '@/components/blog/BlogGrid';
+import { readManifest } from '@/lib/blog/storage';
+import { localizePost } from '@/lib/blog/types';
+
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -59,10 +63,13 @@ export default async function BlogPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const manifest = await readManifest();
+  const posts = manifest.posts.map((p) => localizePost(p, locale));
+
   return (
     <>
       <PageHero />
-      <BlogGrid />
+      <BlogGrid posts={posts} locale={locale} />
     </>
   );
 }
